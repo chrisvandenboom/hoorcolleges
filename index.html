@@ -1,0 +1,1796 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>boeken</title>
+    <script>
+window.onload = function() {
+  document.getElementById("zoekterm").focus();
+};
+</script> </head>
+  <body>
+    <script src="filteren.js"></script>
+    <!--
+<button id="knop" onclick="TelRijen()">Aantal rijen</button><p id="tmp"></p><script src="TelRijen.js"></script>//-->
+    <form>
+      <p style="font-family:Ubuntu;font-size:13px;color:blue;">Vul één of,
+        gescheiden door spaties, meerdere zoektermen in, of delen daarvan; de
+        hele tabel wordt doorzocht; resultaat toont alleen relevante rijen</p>
+      <input style="font-family:Ubuntu;" id="zoekterm" name="filter" onkeyup="filteren(this, 'boeken')" type="text">
+    </form>
+<br>
+<style type="text/css">
+	table {border-collapse: collapse;}
+</style>
+
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table id="boeken" class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Auteur</th><th>Titel</th><th>Genre</th><th>Soort</th></tr></thead><tbody>
+	
+ <tr><td>Aaronovitch, David</td><td>Voodoo histories - how conspiracy theory has shaped modern history</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Abdus Sattar, Sajidah</td><td>Islam voor beginners - heldere inleiding tot de wereld van de islam</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Abeling, André; Ulein, Christine</td><td>Spreekwijzer Frans - 3000 uitdrukkingen en zegswijzen</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Abulafia, David</td><td>The Great Sea - A human history of the Mediterranean</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Achterhuis, Hans</td><td>De markt van welzijn en geluk</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Achterhuis, Hans</td><td>De utopie van de vrije markt</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Adolf, Steven</td><td>Het koele land in de hete zon - Marokko achter de schermen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Adolf, Steven</td><td>Spanje achter de schermen - de feestelijke herrijzenis van een democratie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Ahn, A.; Moret, A.</td><td>Mots et tournures difficiles</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Al-Khalili, Jim</td><td>De bibliotheek van Bagdad - de bloei van de Arabische wetenschap en de wedergeboorte van de westerse beschaving</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Albright, Madeleine</td><td>Fascisme - een waarschuwing</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Aleksandrova, Z.E.</td><td>Slovar' sinonimov russkogo jazyka</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Aleman, André</td><td>Het seniorenbrein - ontwikkeling van onze hersenen na ons vijftigste</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Alexijevitsj, Svetlana</td><td>Het einde van de rode mens - leven op de puinhopen van de Sovjet-Unie</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Alonso, Stéphane; Papôt, Thijs</td><td>En nog is Polen niet verloren - verhalen uit het hart van Europa</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Alvarez, A.</td><td>De wrede god - een studie over zelfmoord</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Amerongen, Martin van</td><td>Wagner - de buikspreker van God</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Amerongen, Martin van</td><td>Zijn bliksem, zijn donder - over de Mattheus Passion van J.S. Bach</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Anders, G.; Bosch, L.; Haspels, A,; Kuitert, H.; Verhagen, H.; Wit, J. de</td><td>Sleutelen aan genen - Erfelijkheid - wat kan, wat mag, wat moet</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Ansary, Tamin</td><td>Destiny disrupted - a history of the world through islamic eyes</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Anstadt, Milo</td><td>Servië en het Westen - een historische schets van Joegoslavië en de Balkan</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Anthony, David W.</td><td>The Horse, the Wheel, and Language</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Apeldoorn, C.G.L; Pot, S.</td><td>Twijfelgevallen Nederlands - handleiding voor verzorgd taalgebruik</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Appia, Kwame Anthony</td><td>The lies that bind</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Aretino, Pietro</td><td>Wulpse sonnetten</td><td>poëzie</td><td>&nbsp;</td></tr>
+ <tr><td>Ariely, Dan</td><td>Predictably Irrational - The Hidden Forces That Shape Our Decisions</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Ariely, Dan</td><td>The Upside of Irrationality</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Armando</td><td>Uit Berlijn</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>A Short History of Myth - Karen Armstrong</td><td>relig</td><td>ebook</td></tr>
+ <tr><td>Armstrong, Karen</td><td>Boeddha</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>De Bijbel</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>De dood van God - voordrachten</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>De grote transformatie - het begin van onze religieuze tradities</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>De kwestie God - de toekomst van religie</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>De strijd om God - een geschiedenis van het fundamentalisme</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>Een geschiedenis van God - 4000 jaar jodendom, christendom en islam</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>Islam - geschiedenis van een wereldgodsdienst</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Armstrong, Karen</td><td>The Case for God</td><td>relig</td><td>ebook</td></tr>
+ <tr><td>Armstrong, Karen</td><td>The Spiral Staircase - My Climb Out of Darkness</td><td>relig</td><td>ebook</td></tr>
+ <tr><td>Armstrong, Karen</td><td>Twelve Steps to a Compassionate Life</td><td>relig</td><td>ebook</td></tr>
+ <tr><td>Asbridge, Thomas</td><td>De eerste kruistocht</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Asbridge, Thomas</td><td>The Crusades - The Authoritative History of the War for the Holy Land</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Baar, Ton van den</td><td>Nederlands-Russisch woordenboek</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Baar, Ton van den</td><td>Russisch-Nederlands woordenboek</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Baars, F.J.J. van; Schoot, J.G.J.A. van der</td><td>Engels-Nederlands (Prisma)</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Babeliowksy; den Hengst; Holtland; van Lakwijk; Marcelis; Pinkster; Smolenaars</td><td>Basiswoordenlijst Latijn</td><td>taal_la</td><td>&nbsp;</td></tr>
+ <tr><td>Bakewell, Sarah</td><td>Hoe te leven - Een leven van Montaigne in één vraag en 20 pogingen tot een antwoord</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Ballin, W.H.</td><td>Perfect your English - the easy way</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Banning, Willem</td><td>Karl Marx - het leven van Karl Marx</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Barash, David</td><td>Het dwingende fluisteren - een sociobiologische verkenning van de mens</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Barber, Benjamin</td><td>Jihad vs. McWorld</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Barber, Benjamin R.</td><td>De infantiele consument - hoe de markt kinderen bederft, volwassen klein houdt en burgers vertrapt</td><td>polit</td><td>&nbsp;</td></tr>
+ <tr><td>Baricco, Alessandro</td><td>De barbaren</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Baricco, Alessandro</td><td>Zijde</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Barnouw, David</td><td>De bezetting in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Bart, István</td><td>Hungary & the Hungarians - the keywords, concise dictionary</td><td>taal_ho</td><td>&nbsp;</td></tr>
+ <tr><td>Bartelink, G.J.M.</td><td>Klassieke letterkunde</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Battus</td><td>De encyclopedie</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Battus</td><td>Opperlandse taal- en letterkunde</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Battus</td><td>Opperlans!</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Baugh, Albert C.; Cable, Thomas</td><td>A history of the English language</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Beard, Mary</td><td>Laughter in Ancient Rome</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Beard, Mary</td><td>SPQR: A history of ancient Rome</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Beaufort, Binnert de</td><td>De lompe leeuw</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Beeck, Griet op de</td><td>Kom hier dat ik u kus</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Beeck, Griet op de</td><td>Vele hemels boven de zevende</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Beekes, R.S.P.</td><td>Vergelijkende taalwetenschap - tussen Sanskrit en Nederlands</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Beekmans, Kees</td><td>Marokko voor beginners</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Beekmans, Kees</td><td>Tussen hoofddoek en string - Marokko, de snelle modernisering van een Arabisch land</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Beerling, R.F.</td><td>Wittgenstein geeft te denken - 26 commentaren en een inleiding</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Beevor, Anthony</td><td>De strijd om Spanje</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Beevor, Anthony</td><td>Paris After the Liberation - 1944-1949</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Beijnum, Kees van</td><td>De oesters van Nam Kee</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Beliën, Herman; Hoogstraten, Monique van</td><td>De Nederlandse geschiedenis in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Beliën, Herman; Meijer, Fik</td><td>De klassieke oudheid in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Bellen, E.C. van</td><td>Franse spraakkunst voor iedereen</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Bellen, E.C. van</td><td>Prisma Grammatica Frans</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Bellos, Alex</td><td>Getallen ontraadseld - alles wat je moet weten over wiskunde</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Benevolo, Leonardo</td><td>De Europese stad</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Bergen, Annegreet van</td><td>Gouden jaren</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Berger, Christine</td><td>Berlijn (Marco Polo gids)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Berger, John</td><td>Ways of seeing</td><td>kunst</td><td>ebook</td></tr>
+ <tr><td>Berger, Maurits</td><td>Kruistocht en jihad - aanslagen in de VS en de dreiging van de islam</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Bergh, Hans van den; Vinken, Pierre</td><td>Klein republikeins handboek - honderd misverstanden over de monarchie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Berkel, G. van; Deelstra-Boerhof, M.; Horjus, S.</td><td>Het nieuwste voornamenboek</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Berlin, Isaiah</td><td>Karl Marx - zijn leven en zijn werk</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Berlion, Daniel (red.)</td><td>Orthographe en poche - toutes les règles</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Berlitz</td><td>Portugees voor op reis</td><td>taal_po</td><td>&nbsp;</td></tr>
+ <tr><td>Berlitz</td><td>Spaans-Nederlands en Holandés-Español</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Berneker, Erich; Vasmer, Max</td><td>Russische Grammatik</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Bernlef, J.</td><td>Geleende levens</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bernlef, J.</td><td>Hersenschimmen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Berry, Jeffrey M.; Sobieraj, Sarah</td><td>The Outrage Industry - Political Opinion Media and the New Incivility</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Beunders, Henri</td><td>De Branderburger Tor - een moeilijk monument</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Bevan, James</td><td>Gezondheidswijzer - medische vraagbaak voor het hele gezin</td><td>medis</td><td>&nbsp;</td></tr>
+ <tr><td>Bezaz, Naima El</td><td>Vinexvrouwen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Biesheuvel, J.M.A.</td><td>Reis door mijn kamer</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bird, Robert</td><td>Andrei Tarkovsky - elements of cinema</td><td>film</td><td>&nbsp;</td></tr>
+ <tr><td>Birney, Alfred</td><td>De tolk van Java</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Birrell, T.A.</td><td>Engelse letterkunde</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Birschel, Annette</td><td>Waar zijn de bitterballen? - cultuurwijzer voor het Nederlandse leven</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Bjelyj, Andrej</td><td>Petersburg</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Blair, Peter Hunter</td><td>An introduction to Anglo-Saxon England</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Blanken, Henk; Deuze, Mark</td><td>PopUp - de botsing tussen oude en nieuwe media</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Blankert, Albert</td><td>Johannes Vermeer van Delft (1632-1675)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Blocksma, Mary; Maanen, Hans van</td><td>De schaal van Richter en andere getallen</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Blokker jr., Jan</td><td>Alle wegen naar Rome</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Blokker jr., Jan</td><td>Als de wereld vergaat, ga ik naar Nederland - vaderlandse geschiedenis in 40 uitspraken</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Blokker, Bas; Es, Gijsbert van; Spiering, Hendrik</td><td>Nederland in een handomdraai - de vaderlandse geschiedenis in jaartallen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Blokker, Jan; Blokker jr., Jan; Blokker, Bas</td><td>Er was eens een God - bijbelse geschiedenis (schoolplaten van Isings)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Blokker, Jan; Blokker jr., Jan; Blokker, Bas</td><td>Het vooroudergevoel - de vaderlandse geschiedenis (schoolplaten van Isings)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Blokker, Jan; Blokker jr., Jan; Blokker, Bas</td><td>Nederland in twaalf moorden</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Blom, Hans; Lamberts, Emiel</td><td>Geschiedenis van de Nederlanden</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Blom, Philipp</td><td>Het verdorven genootschap - de vergeten radicalen van de Verlichting</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Blom, Philipp</td><td>Wat op het spel staat</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Bloom, Allan</td><td>De gedachteloze generatie - hoe ons onderwijs de cultuur bedreigt</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Boccaccio, Giovanni</td><td>Decamerone</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bod, Rens</td><td>De vergeten wetenschappen - een geschiedenis van de humaniora</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Boelgakov, Michail</td><td>De meester en Margarita</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Bolder; Klinkenberg; v. Krimpen; Menningh; Mijksenaar; Oosterhoorn; Ruyter; Westerveld</td><td>Typografie - uitgangspunten, richtlijnen, techniek</td><td>typogr</td><td>&nbsp;</td></tr>
+ <tr><td>Booij, G.E,; Kerstens, J.G.; Verkuyl, H.J.</td><td>Lexicon van de taalwetenschap</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Boomgaart, L.</td><td>Praktische handleiding voor het Engels</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Boon, Louis Paul</td><td>De bende van Jan de Lichte; de zoon van Jan de Lichte</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Boon, Louis Paul</td><td>Mieke Maaike's obscene jeugd</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Boon, Louis Paul</td><td>Mieke Maaike's obscene jeugd</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Boorstin, Daniel</td><td>De scheppende mens - artistieke doorbraken in de wereldgeschiedenis</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Boorstin, Daniel</td><td>De zoekende mens</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bor, Jan</td><td>Een (nieuwe) geschiedenis van de filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bor, Jan; Petersma, Errit; Kingma, Jelle (red.)</td><td>De verbeelding van het denken (geïllustreerde geschiedenis van de westerse en oosterse filosofie)</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bor, Jan; Teppema, Systke</td><td>25 eeuwen filosofie - teksten, toelichtingen</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bordewijk, Frederik</td><td>Karakter</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Borras, F.M.; Christian, R.F.</td><td>Russian syntax - aspects of modern Russian syntax and vocabulary</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Borrel, Daan</td><td>Soms is liefde dit - Een brief over lichaam, seks en verlangen</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Bos, René ten</td><td>Extinctie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Boterman, Frits</td><td>Moderne geschiedenis van Duitsland - 1800 tot heden</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Boterman, Frits</td><td>Terug naar Berlijn - Duitsland na de val van de Muur</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Boterman, Frits; Melching, Willem</td><td>Het wonder Bondsrepubliek in 20 portretten</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>Weg van liefde</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Botton, Alain de</td><td>Proeven van liefde</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>De romantische school</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>De biograaf</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>Hoe Proust je leven kan veranderen</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>De troost van de filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>De kunst van het reizen</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>Statusangst</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>De architectuur van het geluk</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>Ode aan de arbeid</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>Religie voor atheïsten</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Botton, Alain de</td><td>Meer denken over seks</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Botton, Alain de</td><td>Ode aan het kijken</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Botton, Alain de</td><td>Het nieuws - een gebruiksaanwijzing</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bouazza, Hafid</td><td>De voeten van Abdullah</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Bouazza, Hafid (red.)</td><td>Schoon in elk oog is wat het bemint (klassieke Arabische liefdesgedichten)</td><td>poëzie</td><td>&nbsp;</td></tr>
+ <tr><td>Boudry, Maarten</td><td>Illusies voor gevorderden of waarom waarheid altijd beter is</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Bouma, Japke-d.</td><td>Werken doe je maar thuis</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Boutellier, Hans</td><td>De gemankeerde nieuwmensch</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Boutellier, Hans</td><td>De veiligheidsutopie - hedendaags onbehagen en verlangen rond misdaad en straf</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Bowker, John</td><td>God - een geschiedenis - zoektocht van de mens naar de eeuwige waarheid</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Boyden, Matthew</td><td>Opera - 100 essential cd's (Rough guide)</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Braak, Menno ter</td><td>Afscheid van domineesland</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Braak, Menno ter</td><td>Verzameld werk, deel 1</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Braeckman, Johan</td><td>Darwins moordbekentenis - ontwikkeling van het denken van Charles Darwin</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Braeckman, Johan; Boudry, Maarten</td><td>De ongelovige Thomas heeft een punt</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Brandt Corstius, Jelle</td><td>Arctisch dagboek</td><td>reizen</td><td>ebook</td></tr>
+ <tr><td>Brandt Corstius, Jelle</td><td>Rusland voor gevorderden - berichten van een overlever</td><td>reizen</td><td>ebook</td></tr>
+ <tr><td>Brandt Corstius, Jelle</td><td>Universele reisgids voor moeilijke landen</td><td>reizen</td><td>ebook</td></tr>
+ <tr><td>Brandt Corstius, Jelle</td><td>Van Moskou tot Medan</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brederode, Désanne van</td><td>Modern dédain</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Breij, Claudia de</td><td>Neem een geit - leven voor gevorderden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brijs, Stefan</td><td>Engelenmaker</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brijs, Stefan</td><td>Post voor mevrouw Bromley</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>C'est la vie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>De kleine keizer</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>Evelien</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>Evelien 2 - de nieuwe avonturen van Evelien</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>Het verdwenen kruispunt</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>Martin Bril Volkskrant columnist</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bril, Martin</td><td>Rokjesdag</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brink, Gabriël van den; Jansen, Thijs; Pessers, Dorien (red.)</td><td>Beroepszeer - waarom Nederland niet goed werkt</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Brinker, J.H.</td><td>Grammatica Italiaans</td><td>taal_it</td><td>&nbsp;</td></tr>
+ <tr><td>Brinker, J.H.; Bartels, M.R.; Velde, J.W. van der</td><td>Italiaans onderweg</td><td>taal_it</td><td>&nbsp;</td></tr>
+ <tr><td>Brockman, John (red.)</td><td>Dit verklaart alles</td><td>weten</td><td>ebook</td></tr>
+ <tr><td>Brockman, John (red.)</td><td>Gevaarlijke ideeën</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Brockman, John (red.)</td><td>Hoe verandert internet je manier van denken</td><td>weten</td><td>ebook</td></tr>
+ <tr><td>Brockman, John (red.)</td><td>Ik geloof dat... maar heb geen bewijs</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Brokken, Jan</td><td>Baltische zielen - lotgevallen in Estland, Letland en Litouwen</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Brokken, Jan</td><td>De gloed van Sint-Petersburg</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brokken, Jan</td><td>Zeedrift - verzamelde verhalen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brotherton, Rob</td><td>Suspicious Minds - Why We Believe Conspiracy Theories</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Brouwer, Olga Maria</td><td>Italiaanse letterkunde</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Brouwers, Jeroen</td><td>Bittere bloemen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brouwers, Jeroen</td><td>Het hout</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Brown, Edward J.</td><td>Russian literature since the revolution</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Bruckner, Pascal</td><td>De verleiding van de onschuld</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bruckner, Pascal</td><td>Gij zult gelukkig zijn!</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bruckner, Pascal</td><td>Gij zult rijk worden!</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Bruggen, Carry van</td><td>Eva</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bruggen, Carry van</td><td>Het huisje aan de sloot</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bruggen, Carry van</td><td>Prometheus</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bruls, Willem</td><td>Opera in een notendop</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Brusselmans, Herman</td><td>Weg met de literatuur! - een baanbrekende studie</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Bryson, Bill</td><td>A Walk in the Woods - Rediscovering America on the Appalachian Trail</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>At Home</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Bill Bryson's African Diary</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Bryson's Dictionary for Writers and Editors</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Bryson's Dictionary of Troublesome Words</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Een kleine geschiedenis van bijna alles</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Bryson, Bill</td><td>I'm a Stranger Here Myself - Notes on Returning to America After Twenty Years Away</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Made In America</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Neither Here Nor There - Travels in Europe</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Notes from a Small Island</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>Seeing Further - The Story of Science & the Royal Society</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>The Life and Times of the Thunderbolt Kid - A Memoir</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>The Lost Continent</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Bryson, Bill</td><td>The Road to Little Dribbling - More Notes from a Small Island</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Bräuer, Herbert</td><td>Slavische Sprachwissenschaft (3 delen)</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Buchwald, Christoph</td><td>Gute Nacht, Freunde - Duitsland in vijfentwintig boeken</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Buddingh', Cees</td><td>Spectrum Citatenboek</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Buitelaar, M.; Motzki, H. (red.)</td><td>De Koran - ontstaan, interpretatie en praktijk</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Buitenhuis, C.</td><td>Boekhouden voor iedereen</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Burgess, Anthony</td><td>A clockwork orange</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Burke, Peter</td><td>Stadscultuur in Italië tussen renaissance en barok</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Burleigh, Michael</td><td>Het Derde Rijk - een nieuwe geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Buruma, Ian</td><td>Anglomanie</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Buruma, Ian</td><td>Grenzen aan de vrijheid - van De Sade tot Wilders</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Buruma, Ian; Margalit, Avishai</td><td>Occidentalisme - het westen in de ogen van zijn vijanden</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Buwalda, Peter</td><td>Bonita Avenue</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Buxton, Richard</td><td>Griekse mythologie - compleet en geïllustreerd overzicht</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Buza, Péter</td><td>Boedapest met 120 kleurenfoto's</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Büttner, Nils</td><td>Jeroen Bosch - de schilder van visioenen en nachtmerries</td><td>kunst</td><td>ebook</td></tr>
+ <tr><td>Cain, Susan</td><td>Stil - de kracht van introvert zijn in een wereld die niet ophoudt met kletsen</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Calvino, Italo</td><td>Adam, One Afternoon (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Als op een winternacht een reiziger</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Calvino, Italo</td><td>Hermit in Paris - autobiographical writings</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Invisible Cities (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Italian Folktales (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Marcovaldo (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Numbers in the dark and other stories</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Onze voorouders</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Calvino, Italo</td><td>Palomar</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Calvino, Italo</td><td>t zero (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>The Castle Of Crossed Destinies (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>The Complete Cosmicomics (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Under the Jaguar Sun (v5.0) (epub)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Calvino, Italo</td><td>Why read the classics?</td><td>liter</td><td>ebook</td></tr>
+ <tr><td>Campbell, Elisabeth; Beilhardt, K.; Moll, H.J. van</td><td>A practical grammar - for Dutch students</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Campert, Remco</td><td>Een liefde in Parijs</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Een toontje lager</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Haasje over</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Kroeglopen 2</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Mooi cadeau</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Speciaal voor u - 1968</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Speciaal voor u - 1969</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Vliegen vangen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carmiggelt, Simon</td><td>Vroeger kon je lachen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Carpentier, Alejo</td><td>Barokconcert</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Carpentier, Alejo</td><td>De methode</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Carpentier, Alejo</td><td>Heimwee naar de jungle</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Carr, Nicholas</td><td>Het ondiepe - Hoe onze hersenen omgaan met internet</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Carr, Nicholas</td><td>The Glass Cage Automation and Us</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Carroll, John</td><td>De teloorgang van de westerse cultuur - andere kijk op 500 jaar humanisme</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Carroll, Lewis</td><td>Alice in wonderland</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Cervantes Saavedra, Miguel de</td><td>Don Quichot</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Chang, Ha-Joon</td><td>23 Things They Don't Tell You About Capitalism</td><td>econ</td><td>ebook</td></tr>
+ <tr><td>Chang, Ha-Joon</td><td>Bad Samaritans - The Myth of Free Trade and the Secret History of Capitalism</td><td>econ</td><td>ebook</td></tr>
+ <tr><td>Chang, Jung</td><td>Wilde zwanen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Chavannes, Marc</td><td>Frankrijk achter de schermen - de stille revolutie van een trotse natie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Chavannes, Marc</td><td>Niemand regeert - de privatisering van de Nederlandse politiek</td><td>polit</td><td>&nbsp;</td></tr>
+ <tr><td>Chavannes, Marc</td><td>Op de As van Goed en Kwaad - Amerika achter de schermen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Ciment, Michel</td><td>Kubrick</td><td>film</td><td>&nbsp;</td></tr>
+ <tr><td>Clark, Kenneth</td><td>Civilisatie</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Clark, Victoria</td><td>Waarom engelen vallen - Orthodox Europa van Byzantium tot Kosovo</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Clarke, Stephen</td><td>Paris revealed - the secret life of a city</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Claus, Hugo</td><td>De koele minnaar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Claus, Hugo</td><td>Het verdriet van België</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Cleese, John; Skynner, Robin</td><td>Hoe overleef ik mijn familie - everseller over omgaan met liefde</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Cohen, Josef</td><td>Nederlandse sagen en legenden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Cohen-Solal, Annie</td><td>Rothko</td><td>kunst</td><td>ebook</td></tr>
+ <tr><td>Cole, Robert</td><td>A traveller's history of France</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Cole, Robert</td><td>A traveller's history: Paris</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Comrie, Bernard; Matthews, Stephen; Polinsky, Maria; Kortlandt, F.H.H.</td><td>De grote taalatlas (oorsprong en ontwikkeling van taal en schrift in gehele wereld)</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Comte, Fernand</td><td>De grote mythologische figuren</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Constandse, Anton</td><td>Eros - de waan der zinnen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Cook, Michael</td><td>De mens - 10.000 jaar geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Cook, Samantha; Fry, Henry; McQuillian, Neil; Norman, Matt; Park, Alice</td><td>The Rough Guide to London (feb 2018)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Cornelisse, Paulien</td><td>En dan nog iets</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Cornelisse, Paulien</td><td>Taal is zeg maar echt mijn ding</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Costecalde, Claude-Bernard</td><td>Verhalen uit de Bijbel - met uitleg in woord en beeld</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Couperus, Louis</td><td>Aan de weg der vreugde</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Antiek toerisme</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Babel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De berg van licht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De boeken der kleine zielen - 1. De kleine zielen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De boeken der kleine zielen - 2. Het late leven</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De boeken der kleine zielen - 3. Zielenschemering</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De boeken der kleine zielen - 4. Het heilige weten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De komedianten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De ode</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De ongelukkige</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De stille kracht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De verliefde ezel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De verzoeking van den H. Antonius</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>De zwaluwen neergestreken</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Een illuzie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Eline Vere</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Extase</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Fidessa</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>God en goden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Herakles</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Het snoer der ontferming</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Het zwevende schaakbord</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Hooge troeven</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Iskander - deel 1</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Iskander - deel 2</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Langs lijnen van geleidelijkheid</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Legende, mythe en fantazie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Majesteit</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Met Louis Couperus in Afrika</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Metamorfoze</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Noodlot</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Over lichtende drempels</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Psyche</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Reis-impressie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Schimmen van schoonheid</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Van oude mensen, de dingen die voorbijgaan</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Wereldvrede</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couperus, Louis</td><td>Xerxes of de hoogmoed</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Couwenberg, S.W.</td><td>De Nederlandse natie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Crippa, Maria Antonietta</td><td>Antoni Gaudí (1852-1926)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Cruyningen, Arnout van</td><td>De Opstand 1568-1648 - de strijd in de zuidelijke en noordelijke Nederlanden</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Crystal, David</td><td>How language works</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Crystal, David</td><td>The Cambrigde Encyclopedia of the English language</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Cunha, Celso; Cintra, Lindley</td><td>Gramática do Português contemporâneo</td><td>taal_po</td><td>&nbsp;</td></tr>
+ <tr><td>Dalby, Andrew</td><td>Language in danger</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Dalrymple, Theodore</td><td>Andermans rotzooi</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Dalrymple, Theodore</td><td>Beschaving of wat ervan over is</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Dalrymple, Theodore</td><td>Door en door verwend - kritiek op de sentimentele samenleving</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Dalrymple, Theodore</td><td>Drugs - de mythes en de leugens</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Dalrymple, Theodore</td><td>Leve het vooroordeel!</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Dalrymple, Theodore</td><td>Leven aan de onderkant - het systeem dat de onderklasse instandhoudt</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Daniëls, Wim</td><td>Spellingcarrousel - hoogte- en dieptepunten uit spellinggeschiedenis van het Nederlands</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Dante Alighieri</td><td>De goddelijke komedie</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Darwin, Charles</td><td>Autobiographies</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Complete Works</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Evolutionary Writings (Oxford, 2008)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Expression of the Emotions in Man and Animals (Penguin, 2009)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Hosts of Living Forms (Penguin, 2010)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>It Was Snowing Butterflies (Penguin, 2015)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Naturalists Voyage Round the World (Skyhorse, 2014)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>On Natural Selection (Penguin, 2004)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Origin of Species (Oxford, 2008)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Origin of Species - Voyage of the Beagle (2003)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Darwin, Charles</td><td>Selected Letters on Evolution and Origin of Species (Dover, 2018)</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Dash, Mike</td><td>Tulipomania - The Story of the World's Most coveted flower</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Davies, Norman</td><td>Europe - a history</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Davies, Norman</td><td>Vanished Kingdoms, The Rise and Fall of States and Nations</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Davis, Philip J.; Hersch, Reuben</td><td>Descartes' droom - een wiskundige visie op de wereld</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Dawkins, Richard</td><td>A Devil's Chaplain - Reflections on Hope, Lies, Science, and Love</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Dawkins, Richard</td><td>De zelfzuchtige genen - over evolutie, eigenbelang en altruïsme</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Dawkins, Richard</td><td>Een Regenboog ontrafelen</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Dawkins, Richard</td><td>God als misvatting</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Dawkins, Richard</td><td>Het grootste spektakel ter wereld - bewijs voor evolutie</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Dawkins, Richard</td><td>Kapelaan van de duivel</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Dawkins, Richard</td><td>The God Delusion</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Dawkins, Richard</td><td>The Greatest Show on Earth</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Dawkins, Richard</td><td>The Selfish Gene</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Dawkins, Richard</td><td>Unweaving the Rainbow - Science, Delusion and the Appetite for Wonder</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Deen, Mathijs</td><td>Over oude wegen</td><td>geogr</td><td>ebook</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De hommel en andere beesten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De kleine verlossing of de lust van het ontlasten</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De koe en de kanarie</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De larf</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De meeltor en andere beesten</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De thigmofiel - het verlangen naar geborgenheid</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>De vergankelijkheid</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Lichamelijke oefening</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Lief dier</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Mummies</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Mummies</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Pets</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Poes</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Poot</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Rare snuiters</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Rood</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dekkers, Midas</td><td>Volledige vergunning</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Delfos, Martine F.</td><td>Verschil mag er zijn - waarom er mannen en vrouwen zijn</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Delft, Dirk van</td><td>De wijde wereld van de Kleine Talen: 25 portretten</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Delorme, Jean</td><td>De oudheid in jaartallen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Dendermonde, Max</td><td>De wereld gaat aan vlijt ten onder</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dennett, Daniel C.</td><td>Consciousness Explained</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Dennett, Daniel C.</td><td>De betovering van het geloof - religie als een natuurlijk fenomeen</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Dennett, Daniel C.</td><td>Het bewustzijn verklaard</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Descartes, René</td><td>Over de methode</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Desmond, Adrian; Moore, James</td><td>Darwins nobele streven - Hoe Darwins afschuw van de slavernij aan de basis lag van zijn evolutietheorie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Deursen, A.Th. van</td><td>De last van veel geluk - geschiedenis van Nederland 1555 - 1702</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Deutsch, Lorànt</td><td>Metronome - in het ritme van de metro door de geschiedenis van Parijs</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Deutscher, Guy</td><td>Door de bril van de taal - hoe woorden de wereld kleuren</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Deutscher, Isaac</td><td>De onvoltooide revolutie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Diamond, Jared</td><td>De derde chimpansee - evolutie en toekomst van het dier dat mens heet</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Diamond, Jared</td><td>Ondergang - waarom zijn sommige beschavingen verdwenen en hoe kan de onze haar ondergang voorkomen?</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Diamond, Jared</td><td>Zwaarden, paarden & ziektekiemen - de ongelijkheid in de wereld verklaard</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Diamond, Jared M.</td><td>Why Is Sex Fun - The Evolution of Human Sexuality</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Dickens, Charles</td><td>The Complete Charles Dickens Collection</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dicker, Joël</td><td>De waarheid over de zaak Harry Quebert</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Diepstraten, Johan (red.)</td><td>Over Gerrit Komrij - beschouwingen en interviews</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Dijk, P.C. van</td><td>Übersicht über die deutsche Grammatik</td><td>taal_du</td><td>&nbsp;</td></tr>
+ <tr><td>Dijk-Wittop Koning, A.M. van</td><td>Basiswoordenlijst Nieuw-Grieks</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Dijk-Wittop Koning, A.M. van</td><td>Levend Grieks - een kleine grammatica</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Dijkgraaf, Robbert</td><td>Blikwisselingen</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Dijkgraaf, Robbert; Fresco, Louise; Gualthérie van Weezel, Tjerk; Calmthout, Martijn van (red.)</td><td>De bètacanon - wat iedereen moet weten van de natuurwetenschappen</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Dijkshoorn, Nico</td><td>Nooit ziek geweest</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dijksterhuis, E.J.</td><td>De mechanisering van het wereldbeeld</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Dijkstra, Michel</td><td>Oosterse filosofie in een notendop</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Dik, S.C.; Kooij, J.G.</td><td>Algemene taalwetenschap</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Beloofde land en In Afrika</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>De Indië-boeken</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>De wandelaar</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Dubbelliefde</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Een barbaar in China</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Familieziek</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Ik kom terug</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Indische duinen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Leeftocht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Nathan Sid</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Stadsliefde - scènes in Parijs</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Tikkop</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Dis, Adriaan van</td><td>Zilver of het verlies van de onschuld</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>div. auteurs</td><td>Hartstocht in contrapunt</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Dobelli, Rolf</td><td>De kunst van goed leven</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Dobelli, Rolf</td><td>De kunst van het heldere denken - 52 denkfouten die je beter aan anderen kunt overlaten</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Dobelli, Rolf</td><td>De kunst van het verstandige handelen - 52 dwalingen die je beter aan anderen kunt overlaten</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Dohmen, Joep</td><td>Tegen de onverschilligheid</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Domingo, Xavier</td><td>Paella voor het klootjesvolk</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Doorman, Maarten; Pott, Heleen (red.)</td><td>Filosofen van deze tijd</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Doorn, A. van; Links, J.A.</td><td>Praktisch leerboek der statistiek</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Doornaert, Mia</td><td>De ontredderde republiek - zoektocht naar de ziel van Frankrijk</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Dorren, Gaston</td><td>Lingua - dwars door Europa in 69 talen</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Dorrestein, Renate</td><td>Laat me niet alleen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Douwes, Dick</td><td>De islam in een notendop</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Draaisma, Douwe</td><td>De heimweefabriek - geheugen, tijd & ouderdom</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Draaisma, Douwe</td><td>Vergeetboek</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Draaisma, Douwe</td><td>Waarom het leven sneller gaat als je ouder wordt</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Draulans, Dirk</td><td>Beagledagboek</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Draulans, Dirk</td><td>Het succes van slechte seks - hoe de evolutietheorie van toepassing is op elk van ons</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Drost, Jan</td><td>Het romantisch misverstand - anders denken over liefde</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Drs. P</td><td>Toenemend feestgedruis</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Drysdale, Helena</td><td>Moedertalen - een reis door Europa</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Duin, Patrick van der; Stavleu, Hans</td><td>De toekomst in een notendop</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Duncan, David Ewing</td><td>De kalender - op zoek naar de tijd</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Dunford, Martin; Lee, Phil</td><td>Belgium & Luxembourg (Rough guide)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Dyer, Geoff</td><td>But beautiful - de binnenkant van de jazz</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Dyrbye, Helen; Golzen, Thomas</td><td>Xenophobe's guide to the Danes</td><td>geogr</td><td>ebook</td></tr>
+ <tr><td>Eco, Umberto</td><td>De alledaagse onwerkelijkheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Eco, Umberto</td><td>De begraafplaats van Praag</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Eco, Umberto</td><td>De geschiedenis van de lelijkheid</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Eco, Umberto</td><td>De geschiedenis van de schoonheid</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Eco, Umberto</td><td>De naam van de roos</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Eco, Umberto</td><td>De slinger van Foucault</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Eco, Umberto</td><td>Het nulnummer</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Eco, Umberto</td><td>How to travel with a salmon</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Eco, Umberto</td><td>Island of the day before</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Edis, Geneviève</td><td>Merde encore! Geneviève - het echte Frans dat u op school nooit leerde</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Edis, Geneviève</td><td>Merde! Geneviève - het echte Frans dat u op school nooit leerde</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Eggermont, J.L.; Hoekstra, S.</td><td>Grammaire fondamentale</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Eggermont, J.L.; Hoekstra, S.</td><td>Mots-clés</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Eggermont, J.L.; Hoekstra, S.; Heurlin, K.</td><td>Le français fondamental</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Eggers, Dave</td><td>De cirkel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Ehrenreich, Barbara</td><td>Bright-Sided - How Positive Thinking Is Undermining America</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Eickhoff, Matthias</td><td>Boedapest met kaart/routes (ANWB extra)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Eilers, H.B.; Jansen, W.F.; Volder, H.H.J. de</td><td>SQL in de praktijk</td><td>inform</td><td>&nbsp;</td></tr>
+ <tr><td>Elias, Norbert</td><td>Het civilisatieproces - sociogenetische en psychogenetische onderzoekingen</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Elsschot, Willem</td><td>Kaas</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Elsschot, Willem</td><td>Lijmen en Het been</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Emmer, Piet</td><td>De Nederlandse slavenhandel 1500-1850</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Emmet, E.R.</td><td>Logisch denken</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Engelen, R.K.; Zee, John van der</td><td>Grammatica Duits</td><td>taal_du</td><td>&nbsp;</td></tr>
+ <tr><td>Entwistle, W.J.; Morison, W.A.</td><td>Russian and the Slavonic languages</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Enzensberger, Hans Magnus</td><td>De radicale verliezer</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Ephimenco, Sylvain</td><td>Het land van Theo van Gogh - de multiculturele desintegratie</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Erasmus, Desiderius</td><td>De lof der zotheid</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Euripides</td><td>Medea</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>EuroTalk interactive</td><td>Leer Arabisch (cd-rom)</td><td>taal_ar</td><td>&nbsp;</td></tr>
+ <tr><td>Evans, Jules</td><td>Filosofie voor het leven en andere gevaarlijke situaties</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Faber, Michel</td><td>Lelieblank, scharlaken rood</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Fagel, Raymond; Storm, Eric (red.)</td><td>Het land van Don Quichot - de Spanjaarden en hun geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Fallada, Hans</td><td>Alleen in Berlijn</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Fallada, Hans</td><td>In mijn vreemde land</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Falter, Rolf</td><td>België, een geschiedenis zonder land</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Fann, K.T.</td><td>Wittgenstein en zijn wereld</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Fast, J.D.</td><td>Materie en leven - de samenhang der natuurwetenschappen</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Ferguson, Niall</td><td>Civilization - The West and the Rest</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ferguson, Niall</td><td>Empire - The Rise and Demise of the British World Order</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ferguson, Niall</td><td>The Ascent of Money - A Financial History of the World</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ferguson, Niall</td><td>The House of Rothschild - Money's Prophets, 1798-1848</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ferguson, Niall</td><td>The House of Rothschild - The World's Banker, 1849-1999</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ferguson, Niall</td><td>The Square and the Tower</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ferguson, Niall</td><td>Wereldrijk - Groot-Brittannië en de moderne wereld</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Fernández-Armesto, Felipe</td><td>Ideeën die de wereld veranderden</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Ferrucci, Franco</td><td>De schepping - autobiografie van God</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Field, Andrew</td><td>Nabokov: his life in part</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Field, Andrew</td><td>The life and art of Vladimir Nabokov</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Figes, Orlando</td><td>A people's tragedy - the Russian revolution 1891-1924</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Figes, Orlando</td><td>Natasja's dans - een culturele geschiedenis van Rusland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Finkielkraut, Alain</td><td>De ondergang van het denken</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Finley, Moses I.</td><td>De oude Grieken</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Fischer, Ernst Peter</td><td>Einstein, Hawking, Singh & Co. - boeken die men moet kennen</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Foer, Jonathan Safran</td><td>Alles is verlicht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Foer, Jonathan Safran</td><td>Extreem luid en ongelooflijk dichtbij</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Foer, Joshua</td><td>Het geheugenpaleis</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Foley, Michael</td><td>Absurde overvloed - waarom het zo moeilijk is om gelukkig te worden</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Folkertsma, Anne; Fallada, Hans</td><td>Hans Fallada - alles in mijn leven komt terecht in een boek</td><td>liter</td><td>ebook</td></tr>
+ <tr><td>Forrester, Viviane</td><td>De terreur van de globalisering</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Forsyth, J.</td><td>A grammar of aspect - usage and meaning in the Russian verb</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Francioli, Paola (red.)</td><td>Dizionario Garzanti della lingua italiana</td><td>taal_it</td><td>&nbsp;</td></tr>
+ <tr><td>Frank, Anne</td><td>Het achterhuis</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Frank, Thomas</td><td>Listen Liberal - Or What Ever Happened to the Party of the People</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Frank, Thomas</td><td>What's the matter with Kansas</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Frankfurt, Harry G.</td><td>Bullshit - waarom er zoveel wordt geluld</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Frankfurt, Harry G.</td><td>Waarheid</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Frankopan, Peter</td><td>De zijderoutes - een nieuwe wereldgeschiedenis</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Frankopan, Peter</td><td>The First Crusade - The Call from the East</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Frankopan, Peter</td><td>The new silk roads</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Franssen, Maarten</td><td>Fysica in een notendop</td><td>fysica</td><td>&nbsp;</td></tr>
+ <tr><td>Franzen, Jonathan</td><td>Vrijheid</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Freriks, Philip</td><td>Gare du Nord</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Friedländer, Max. J.</td><td>Landmarks in art history - From Van Eyck to Bruegel</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Friedman, Thomas L.</td><td>De aarde is plat - ontdekkingsreis door een geglobaliseerde wereld</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Fromkin, Victoria; Rodman, Robert</td><td>An introduction to language</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Fry, Stephen</td><td>Fry, a memoir</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Fry, Stephen</td><td>Moab is my washpot</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Fry, Stephen</td><td>Mythos - A Retelling of the Myths of Ancient Greece</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Fry, Stephen</td><td>The Fry chronicles</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Fry, Stephen</td><td>The liar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Fry, Stephen</td><td>The ode less travelled, unlocking the poet within</td><td>poëzie</td><td>ebook</td></tr>
+ <tr><td>Fuentes, Carlos</td><td>De Spaanse erfenis - vijf eeuwen Spaanse invloeden in Latijns Amerika</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Furedi, Frank</td><td>Bange ouders - opvoeden zonder zorgen</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Furedi, Frank</td><td>Cultuur van angst</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Furedi, Frank</td><td>De terugkeer van het gezag - waarom kinderen niets meer leren</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Furedi, Frank</td><td>Therapy culture - cultivating vulnerability in an uncertain age</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Furedi, Frank</td><td>Waar zijn de intellectuelen?</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Gaarder, Jostein</td><td>De wereld van Sofie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Galjaard, Hans</td><td>Alle mensen zijn ongelijk - verschillen en overeenkomsten tussen mensen: erfelijke aanleg, gezondheid, gedrag en prestaties</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>García Márquez, Gabriel</td><td>De generaal in zijn labyrint</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>García Márquez, Gabriel</td><td>De kolonel krijgt nooit post</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>García Márquez, Gabriel</td><td>De uitvaart van Mamá Grande</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>García Márquez, Gabriel</td><td>Droeve hoeren</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>García Márquez, Gabriel</td><td>Honderd jaar eenzaamheid</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>García Márquez, Gabriel</td><td>Kroniek van een aangekondigde dood</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>García-Pelayo, Ramón</td><td>Larousse Diccionario usual</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Garfield, Simon</td><td>Op de kaart - hoe de wereld in kaart werd gebracht</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Gascoigne, Bamber</td><td>De Christenen</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Geldof, Dirk</td><td>We consumeren ons kapot</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Geraedts, Joep</td><td>De genetica van de mens in een notendop</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Gerhart, Genevra</td><td>The Russian's World - Life and language</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Gerritsen, Esther</td><td>Broer (boekenweekgeschenk 2016)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Gerritsen, Esther</td><td>Dorst</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Giesen, Peter</td><td>Retour de France</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Giordano, Paolo</td><td>De eenzaamheid van priemgetallen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Giovannelli, Paolo; Tichelman, F.J.E.</td><td>Italiaanse woordenschat</td><td>taal_it</td><td>&nbsp;</td></tr>
+ <tr><td>Glass, Philip</td><td>Woorden zonder muziek - een leven in de muziek</td><td>muziek</td><td>ebook</td></tr>
+ <tr><td>Glaudemans, R.; Tussenbroek, G. van</td><td>De moerasdraak - Achthonderd jaar Bossche vestingwerken</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Glyn, Anthony</td><td>Agon gids voor Parijs</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Goddard, Marcia</td><td>Anders denken - de valkuilen en verborgen talenten van autisme</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Goekoop, Cees</td><td>Homerus - een raadsel, een zoektocht door het Homerische landschap</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Gogh, Vincent van</td><td>Een leven in brieven (1853-1890); keuze, inleiding en toelichtingen: Jan Hulsker</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Gogol, Nikolaj</td><td>Dagboek van een gek, De neus, De mantel</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Gogol, Nikolaj</td><td>De dode zielen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Goldhill, Simon</td><td>Liefde, seks en tragedie - hoe de oudheid ons heeft gevormd</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Goldschmidt, Tijs</td><td>Kloten van de engel - beschouwingen over de natuurlijkheid van cultuur</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Goldstein, Phyllis</td><td>A convenient hatred - the history of antisemitism</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Goleman, Daniel</td><td>Ecological Intelligence - How Knowing the Hidden Impacts of What We Buy Can Change Everything</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Gombrich, E.H.</td><td>Art and illusion - a study in the psychology of pictorial representation</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Gool, A.B. van</td><td>De geschiedenis van de mensheid, deel V: Hellas en Rome</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Goulding, Phil G.</td><td>Klassieke muziek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Graeber, David</td><td>Schuld - de eerste 5000 jaar</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Graves, Robert</td><td>Griekse mythen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Gray, John</td><td>The Immortalization Commission</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Gray, John</td><td>The Silence of Animals - On Progress and Other Modern Myths</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Gray, John</td><td>The Soul of the Marionette</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Gray, John</td><td>Zwarte mis - apocalyptische religie en de moderne utopieën</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Grayling, A.C.</td><td>The God Argument</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Greenblatt, Stephen</td><td>The Swerve - How the world became modern</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Greene, Robert</td><td>The laws of human nature</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Griffiths, Paul</td><td>Componisten van deze tijd</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Grijs, Piet</td><td>Piet Grijs is gek!</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Grimault, Marguerite</td><td>Sören Kierkegaard</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Grind, Wim van de</td><td>Intelligentie in een notendop</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Groenendijk, Paul</td><td>De Nederlandse architectuur in een notendop</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Groeneveld, Rob</td><td>Vaarwel gulden - 750 jaar historie 1252-2002</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Groot, A.D. de</td><td>Methodologie - grondslagen van onderzoek en denken in de gedragswetenschappen</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Groot, Ger</td><td>De geest uit de fles - hoe de moderne mens werd wie hij is</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Grossman, David</td><td>Komt een paard de kroeg binnen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grossman, Vasili</td><td>A writer at war</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grossman, Vasili</td><td>An Armenian sketchbook</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grossman, Vasili</td><td>Everything flows</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grossman, Vasili</td><td>Life and fate</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grossman, Vasili</td><td>The road</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grout, Donald J.; Palisca, Claude V.</td><td>Geschiedenis van de westerse muziek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>De asielzoeker</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>De Joodse messias</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>Fantoompijn</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>Huid en haar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>Moedervlekken</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>Onze oom</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grunberg, Arnon</td><td>Tirza</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Grübel, Monika</td><td>Judentum - Schnellkurs</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Guépin, J.P.</td><td>De beschaving</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Haan, Martin de</td><td>Aan de rand van de wereld: Michel Houellebecq</td><td>liter</td><td>ebook</td></tr>
+ <tr><td>Haddon, Mark</td><td>Het wonderbaarlijke voorval met de hond in de nacht</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Haffner, Sebastian</td><td>Het verhaal van een Duitser 1914-1933</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Haffner, Sebastian</td><td>Kanttekeningen bij Hitler</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Haider Rahman, Zia</td><td>In het licht van wat wij weten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Halliday, Lisa</td><td>Asymmetry</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Ham, Gijs van der</td><td>Geschiedenis van Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hamecourt, Peter d'</td><td>Leven als God in Rusland</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Hamecourt, Peter d'</td><td>Moskou is een gekkenhuis</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Hamecourt, Peter d'</td><td>Petersburg, paradijs in het moeras</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Hamecourt, Peter d'</td><td>Russen zien ze vliegen</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Hamecourt, Peter d'</td><td>Toen Napoleon Maly verliet</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Hamecourt, Peter d'</td><td>Vladimir Poetin</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Harari, Yuval Noah</td><td>Homo Deus - een kleine geschiedenis van de toekomst</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Harari, Yuval Noah</td><td>Sapiens - een kleine geschiedenis van de mensheid</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Haring, Bas</td><td>De ijzeren wil - over bewustzijn, het brein en denkende machines</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Haring, Bas</td><td>Kaas & de evolutietheorie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Harris, Sam</td><td>2004 - The End of Faith</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harris, Sam</td><td>2006 - Letter to a christian nation</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harris, Sam</td><td>2010 - The Moral Landscape How Science Can Determine Human Values</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harris, Sam</td><td>2011 - Lying</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harris, Sam</td><td>2012 - Free Will</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harris, Sam</td><td>Islam and the future of tolerance (with Maajid Nawaz)</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harris, Sam</td><td>Van God los - de gevaren van religie en de toekomst van de rede</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Harris, Sam</td><td>Waking Up - A Guide to Spirituality without Religion</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Harrison, Guy P.</td><td>50 Reasons People Give for Believing in a God</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Harrison, Guy P.</td><td>50 Simple Questions for Every Christian</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Harrison, Guy P.</td><td>Think - why you should question everything</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>De kritische afstand</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>De som van misverstanden</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>De stekelbaars</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>De vrouw bestaat niet</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>Een vlucht regenwulpen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>Johann Sebastian Bach</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>Laatste zomernacht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>Maassluis</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>Mozart en de anderen</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Hart, Maarten 't</td><td>Wie God verlaat heeft niets te vrezen - de schrift betwist</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hawking, Stephen</td><td>De antwoorden op de grote vragen</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Hayakawa, S.I.; Fletcher, P.J.</td><td>Cassell's modern guide to synonyms & related words</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Heerden, Jaap van</td><td>Schrikbewind der verzinsels</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heerden, Jaap van</td><td>Wees blij dat het leven geen zin heeft</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heertje, Arnold</td><td>Echte economie</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Heertje, Arnold</td><td>Echte economie - over schaarste en welvaart en het geloof in leermeesters en lernen</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Heertje, Arnold</td><td>Economie</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Heertje, Arnold</td><td>Economie in een notendop</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Heertje, Arnold; Nypels, Frans; Tamboer, Kees</td><td>De verwording van de economie - voor arbeider, ondernemer en kruidenier verklaard</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Heijden, A.F.Th. van der</td><td>Tonio</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Heijden, Chris van der</td><td>Grijs verleden</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Heijden, Chris van der</td><td>Momenten van herinnering</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Heijden, Peter-Jan van der; Molhuysen, Henny</td><td>Kroniek van 's-Hertogenbosch - acht eeuwen stadsgeschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Angst en schoonheid - Louis Couperus, de mystiek der zichtbare dingen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>De werkelijkheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>De wijde wereld</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Een waanzinnig gaaf land</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Heijne, Bas</td><td>Harde liefde</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Het verloren land</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Hollandse toestanden</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Moeten we van elkaar houden?</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Onbehagen - nieuw licht op de beschaafde mens</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Heijne, Bas</td><td>Onredelijkheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heijne, Bas</td><td>Staat van Nederland</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Heijne, Bas</td><td>Zang</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Bacteriën moeten ook leven</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Iedereen is eigenaar van iets</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Iedereen is in de war</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Is Youp leuk?</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Niks spel, knikkers!</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>NRC columns 2010</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Oelikoelie en andere goden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Ware woorden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hek, Youp van 't</td><td>Wie verstaat er kips?</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hendrickson, Robert</td><td>The literary life & other curiosities</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Hermans, W.F.</td><td>De donkere kamer van Damocles</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hermans, W.F.</td><td>Filip's sonatine</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hermans, W.F.</td><td>Het behouden huis</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hermans, W.F.</td><td>Nooit meer slapen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hermsen, Joke</td><td>Melancholie van de onrust - essay bij de Maand van de Filosofie 2017</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Hermsen, Joke. J.</td><td>Stil de tijd - pleidooi voor een langzame toekomst</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Herodotus</td><td>Oude oosterse verhalen (vert. Onno Damsté)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Herrin, Judith</td><td>Byzantium - The Surprising Life of a Medieval Empire</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Hertmans, Stefan</td><td>De mobilisatie van Arcadia</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hertmans, Stefan</td><td>Oorlog en terpentijn</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hessel, Stéphane</td><td>Neem het niet!</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Heumakers, Arnold (red.)</td><td>De oogst - denkers die ons wereldbeeld veranderden</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Heupel, Carl; Kerkhof, M.P.A.M.</td><td>Spaanse woordenschat</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Hillenius, Dick</td><td>Het romantisch mechaniek</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hillenius, Dick</td><td>Oefeningen voor een derde oog</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hingley, Ronald</td><td>De Russische revolutie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hirsi Ali, Ayaan</td><td>De zoontjesfabriek</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hirsi Ali, Ayaan</td><td>Mijn vrijheid</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hirsi Ali, Ayaan</td><td>Nomade</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hirsi Ali, Ayaan</td><td>The caged virgin</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>1989 - Hostage to History</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2002 - Why Orwell Matters</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2004 - Blood, Class and Empire</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2005 - Letters to a Young Contrarian</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2005 - Thomas Jefferson - Author of America</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2006 - Thomas Paine's Rights of Man - A Biography</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2007 - God Is Not Great How Religion Poisons Everything</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2007 - The Portable Atheist Essential Readings for the Non-Believer</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2008 - Christopher Hitchens and his critics</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2008 - Is Christianity Good for the World?</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2008 - The Parthenon Marbles</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2010 - Hitch-22 Some Confessions and Contradictions - A Memoir</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2011 - Arguably - Essays</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2011 - Hitchens vs. Blair</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2011 - Love, Poverty, and War - Journeys and Essays</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2011 - The Enemy</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2011 - The Quotable Hitchens</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2012 - Mortality</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2012 - No One Left to Lie To</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2012 - The Missionary Position Mother Teresa in Theory and Practice</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2012 - The monarchy</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2012 - The Trial of Henry Kissinger</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2014 - For the Sake of Argument</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2014 - Prepared for the Worst</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2014 - Unacknowlegded Legislation</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2015 - And Yet (essays)</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2015 - Atheist Manifesto</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2016 - Triumvirate of Rationalism</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>2017 - Last Interview & Other Conversations</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>De rechten van de mens (van Thomas Paine)</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>God is niet groot</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hitchens, Christopher</td><td>Het beste van Christopher Hitchens - essays</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Hobsbawm, Eric</td><td>Age of Capital 1848-1875</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Hobsbawm, Eric</td><td>Age of Empire 1875-1914</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Hobsbawm, Eric</td><td>Age of Revolution 1789-1848</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Hobsbawm, Eric</td><td>Een eeuw van uitersten - de twintigste eeuw 1914-1991</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hobsbawm, Eric</td><td>How to Change the World, Reflections on Marx & Marxism (Yale, 2011)</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Hodgkinson, Tom</td><td>How to Be Idle - A Loafer's Manifesto</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Hodgkinson, Tom</td><td>Luie ouders hebben gelijk</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hofland, Henk</td><td>Tegels lichten</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Hofstädter, Douglas</td><td>Gödel, Escher, Bach - An Eternal Golden Braid</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Hofstädter, Douglas; Sander, Emmanuel</td><td>Analogie - de kern van ons denken</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Holt, Jim</td><td>Why Does the World Exist - An Existential Detective Story</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Homerus</td><td>Ilias (naverteld Onno Damsté)</td><td>epos</td><td>&nbsp;</td></tr>
+ <tr><td>Homerus</td><td>Ilias en Odyssee (vert. M.A. Schwartz)</td><td>epos</td><td>&nbsp;</td></tr>
+ <tr><td>Homerus</td><td>Odyssee (naverteld Onno Damsté)</td><td>epos</td><td>&nbsp;</td></tr>
+ <tr><td>Homerus</td><td>The Iliad (Barnes & Noble classics)</td><td>poëzie</td><td>ebook</td></tr>
+ <tr><td>Homerus</td><td>The Iliad (Penguin books)</td><td>poëzie</td><td>ebook</td></tr>
+ <tr><td>Homerus</td><td>The Odyssey (vert. George Herbert Palmer)</td><td>poëzie</td><td>ebook</td></tr>
+ <tr><td>Homerus</td><td>The Odyssey (vert. H. Rieu)</td><td>poëzie</td><td>ebook</td></tr>
+ <tr><td>Homerus</td><td>The Odyssey (vert. Robert Fagles)</td><td>poëzie</td><td>ebook</td></tr>
+ <tr><td>Hondebrink, Jan</td><td>Religie in een notendop</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Hooff, Anton van</td><td>Klassiek - geschiedenis van de Grieks-Romeinse wereld</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hoogbergen, Theo (red.)</td><td>De Muntel 1921-2001</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hoogendoorn, Hans; Iersel-Fajfarek, Ania van</td><td>Taalgids Pools (ANWB extra)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Hornby, A.S.</td><td>Oxford Advanced Learner's Dictionary of Current English</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Horst, D. van der</td><td>Geschiedenis van Engeland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Horst, Han van der</td><td>Een bijzonder land</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Horst, Han van der</td><td>Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Horst, Joop van der</td><td>Taal op drift - lange-termijnontwikkelingen in taal en samenleving</td><td>taalk</td><td>ebook</td></tr>
+ <tr><td>Houellebecq, Michel</td><td>De wereld als markt en strijd</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Houellebecq, Michel</td><td>Elementaire deeltjes</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Houellebecq, Michel</td><td>Mogelijkheid van een eiland</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Houellebecq, Michel</td><td>Onderworpen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Houellebecq, Michel</td><td>Platform</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Hourani, Albert</td><td>De geschiedenis van de Arabische volken</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Houten, Theodore van</td><td>Dmitri Sjostakovitsj (1906-1975) - een leven in angst</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Houten, Theodore van</td><td>Eisenstein was great eater - in memory of Leonid Trauberg</td><td>film</td><td>&nbsp;</td></tr>
+ <tr><td>Houten, Theodore van</td><td>Leonid Trauberg and his films - always the unexpected</td><td>film</td><td>&nbsp;</td></tr>
+ <tr><td>Houët, Henriëtte</td><td>Grammatica Nederlands</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Hua, Yu</td><td>Broers</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Hua, Yu</td><td>De zevende dag</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Hughes, Robert</td><td>Barcelona - De grote verleidster</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Hughes, Robert</td><td>De fatale kust - het epos van Australië</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hughes, Robert</td><td>De zeven levens van Rome - Een cultuurgeschiedenis van de Eeuwige Stad</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hughes, Robert</td><td>The Fatal Shore</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Hughes, Robert</td><td>The Shock of the New</td><td>kunst</td><td>ebook</td></tr>
+ <tr><td>Huig, M.; Lunsingh Scheurleer jr., D.F.</td><td>De klassieke oudheid</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Huijer, Marli</td><td>Beminnen - nieuw licht op seksuele vrijheid</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Huijer, Marli</td><td>In de versnelling</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Huijer, Marli; Hees, Martin van</td><td>Wij zijn allemaal migranten</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Huitenga, T.; Moll, H.J. van</td><td>Translation Guide Dutch-English</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Huizinga, Johan</td><td>Erasmus</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Huizinga, Johan</td><td>Herfsttij der Middeleeuwen</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Huizinga, Johan</td><td>Herfsttij der middeleeuwen (geïll.)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Huizinga, Johan</td><td>Homo ludens</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Huizinga, Johan</td><td>Nederland's beschaving in de 17e eeuw</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Humphreys, Rob</td><td>Prague (rough guide)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Huntington, Samuel</td><td>Botsende beschavingen - cultuur en conflict in de 21e eeuw</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Hus, W.J.B.</td><td>Grammatica Grieks</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Hus, W.J.B.</td><td>Grammatica Latijn</td><td>taal_la</td><td>&nbsp;</td></tr>
+ <tr><td>Huszti, Zolán J.</td><td>Wat en Hoe taalgids Hongaars</td><td>taal_ho</td><td>&nbsp;</td></tr>
+ <tr><td>Huysmans, J.K.</td><td>Tegen de keer</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Hvistendahl, Mara</td><td>Unnatural Selection - Choosing Boys Over Girls, and the Consequences of a World Full of Men</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Hyde, G.M.</td><td>Vladimir Nabokov, America's Russian novelist</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Höweler, Casper</td><td>XYZ der muziek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Illies, Florian</td><td>1913</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Illouz, Eva</td><td>Why Love Hurts - A Sociological Explanation</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Instituut voor Nederlandse Lexicografiem (Ned. Taalunie)</td><td>Het Groene Boekje - woordenlijst Nederlandse Taal</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Ioannidis, John</td><td>Why most published research findings are false</td><td>weten</td><td>ebook</td></tr>
+ <tr><td>Isaacson, Walter</td><td>Leonardo da Vinci</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Isacoff, Stuart M.</td><td>Het octaaf - de juiste stemming in de muziek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Isatsjenko, A.V.</td><td>Die russische Sprache der Gegenwart - Formenlehre</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Israel, Jonathan I.</td><td>De Republiek 1477 - 1806</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Israel, Jonathan I.</td><td>Democratic Enlightenment - philosopy, revolution and human rights 1750-1790</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Israel, Jonathan I.</td><td>Revolutionary Ideas. An Intellectual History of the French Revolution from The Rights of Man to Robespierre</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Istendael, Geert van</td><td>Het Belgisch labyrint</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Istendael, Geert van</td><td>Mijn Duitsland</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Istendael, Geert van</td><td>Mijn Nederland</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Jacobson, Reed</td><td>Step by step Excel 97 Visual Basic</td><td>inform</td><td>&nbsp;</td></tr>
+ <tr><td>Jansen, H.P.H.</td><td>Geschiedenis van de middeleeuwen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Jansen, H.P.H.</td><td>Kalendarium geschiedenis van de lage landen in jaartallen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Jansen, H.P.H.</td><td>Kalendarium geschiedenis van de lage landen in jaartallen (bijgew. druk)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Jansen, H.P.H.</td><td>Middeleeuwse geschiedenis der Nederlanden</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Jansen, Mathilde; Sijs, Nicoline van der; Gucht, Fieke van der; Caluwe, Johan de</td><td>Atlas van de Nederlandse taal</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Jansen, Suzanna</td><td>Het pauperparadijs</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Jansen, Thijs; Jong, Gerrit de; Klink, Ab (red.)</td><td>De nieuwe schoolstrijd!</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Janson, H.W.</td><td>Wereldgeschiedenis van de kunst (voornaamste beeldende kunsten tot heden)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Janssen, Pierre</td><td>Vincent van Gogh is niet meer</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Japin, Arthur</td><td>De grote wereld</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Japin, Arthur</td><td>De overgave</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Japin, Arthur</td><td>De zwarte met het witte hart</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Japin, Arthur</td><td>Een schitterend gebrek</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Japin, Arthur</td><td>Vaslav</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Jardine, Lisa</td><td>Going Dutch: How England Plundered Holland's Glory</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Jelinek, Elfriede</td><td>De pianiste</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Jenkins, Simon</td><td>A short history of Europe</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Jensen, Stine</td><td>Echte vrienden</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Jensen, Stine</td><td>Het broekpak van Olivia Newton-John - stukken tegen de liefde</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Jerofejev, Venedikt</td><td>Moskou op sterk water</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Jerofejev, Viktor</td><td>Een vrolijke hel - het Rusland van Poetin</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Jochems, A.A.F.; Joosten, F.W.M.G. (red.)</td><td>Zakwoordenboek der geneeskunde</td><td>medis</td><td>&nbsp;</td></tr>
+ <tr><td>Johnson, Vida T.; Petrie, Graham</td><td>The films of Andrei Tarkovsky -  a visual fugue</td><td>film</td><td>&nbsp;</td></tr>
+ <tr><td>Jones, Peter</td><td>Latijn voor beginners</td><td>taal_la</td><td>&nbsp;</td></tr>
+ <tr><td>Jong, Lou de</td><td>Het Koninkrijk der Nederlanden 01 - Voorspel</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Jong, Lou de</td><td>Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog 1939-1945, deel I</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Jong, Oek de</td><td>Pier en oceaan (deel 1)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Jong, Oek de</td><td>Pier en oceaan (deel 2)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Jonge, Freek de</td><td>De toeschouwer</td><td>theater</td><td>&nbsp;</td></tr>
+ <tr><td>Joyce, James</td><td>Dubliners</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Joyce, James</td><td>Ulysses</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Judah, Ben</td><td>Dit is Londen</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Judt, Tony</td><td>De vergeten twintigste eeuw - nieuwe wereldgeschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Judt, Tony</td><td>Het land is moe - verhandeling over onze ontevredenheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Judt, Tony</td><td>Na de oorlog - een geschiedenis van Europa sinds 1945</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Judt, Tony</td><td>Reappraisals</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Judt, Tony</td><td>The Memory Chalet</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Judt, Tony</td><td>When the facts change - essays 1995-2010</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Kafka, Franz</td><td>Verzameld werk</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Kahn, René</td><td>Onze hersenen - de smalle grens tussen normaal en abnormaal</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Kahneman, Daniel</td><td>Ons feilbare denken - thinking, fast and slow</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Kanters, H.J.</td><td>Basiswoorden Latijn</td><td>taal_la</td><td>&nbsp;</td></tr>
+ <tr><td>Kaplan, Robert D.</td><td>Reis naar de einden der aarde</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kartografie Praha</td><td>Praha</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Kauffmann, Georg</td><td>Florence - art treasures & buildings</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Kayzer, Wim</td><td>De waarnemer</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Kayzer, Wim</td><td>Een schitterend ongeluk</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Kayzer, Wim</td><td>Het boek van de schoonheid en de troost</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kayzer, Wim</td><td>Vertrouwd en o zo vreemd - over geheugen en bewustzijn</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Keen, Andrew</td><td>De digitale afgrond - hoe de huidige sociale online revolutie ons eenzamer maakt</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Keen, Andrew</td><td>The cult of the amateur - how today's internet is killing our culture...</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Keen, Andrew</td><td>The Internet Is Not The Answer</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Kennedy, Michael (red.)</td><td>The Concise Oxford Dictionary of music</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Kern, Stephen</td><td>Anatomie en noodlot - cultuurgeschiedenis van het menselijk lichaam</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Kershaw, Ian</td><td>Tot de laatste man</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Ketelaar, Titia</td><td>Mind the gap - het Engelse eilandgevoel en de vele tegenstellingen in één land</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Keuken, G.J. van der</td><td>Essentials</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Keuken, G.J. van der</td><td>Foundations - a concise English grammar</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Kinder, H.; Hilgemann, W.</td><td>Sesam atlas bij wereldgeschiedenis (2 delen)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Kindt, Martin; Moor, Ed de</td><td>Wiskunde in een notendop</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Klein, Naomi</td><td>De shock doctrine - de opkomst van het rampenkapitalisme</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Klein, Naomi</td><td>Nee is niet genoeg - tegen Trumps shockpolitiek voor de wereld die we nodig hebben</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Klein, Naomi</td><td>No Logo</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Klein, Naomi</td><td>The Shock Doctrine - The Rise of Disaster Capitalism</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Klein, Naomi</td><td>This changes everything</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Klein, Peter W.</td><td>1000 jaar vaderlandse geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Klukhuhn, André</td><td>De geschiedenis van het denken (filosofie, wetenschap, kunst, cultuur)</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Knausgard, Karl Ove</td><td>Mijn strijd (6 delen)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kochan, Lionel</td><td>Het ontstaan van het moderne Rusland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Koelemeijer, Judith</td><td>Hemelvaart</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Koelemeijer, Judith</td><td>Het zwijgen van Maria Zachea</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Koenders, Edith; Sorensen, Soren</td><td>Wat en Hoe taalgids Deens</td><td>taal_de</td><td>&nbsp;</td></tr>
+ <tr><td>Koenen, Liesbeth</td><td>Het vermogen te verlangen (9 letters) - gesprekken over taal en het menselijk brein</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Koldeweij, Jos; Vandenbroeck, Paul; Vermet, Bernard</td><td>Jheronimus Bosch - alle schilderijen en tekeningen</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Kolsteren, A,; Sanders, Ewoud</td><td>Vreemde woorden</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Er is geen vrijheid in de zandwoestijn</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Halfgod verzamelaar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Hutten en paleizen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Daar is het gat van de deur</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Horen, zien en zwijgen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Heremijntijd - Exercities & ketelmuziek</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Papieren tijgers</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>De stankbel van de Nieuwezijds</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>De Nederlandse poëzie van 19e en 20e eeuw in 1000 en enige gedichten</td><td>poëzie</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Verwoest Arcadië</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Averechts</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Het kroost van Aagt Morsebel</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Het chemisch huwelijk</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>De muze in het kolenhok</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Het boze oog</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Dit helse moeras</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Alles onecht</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>De gelukkige schizo</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Verzonken boeken</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Lof der simpelheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Humeuren & temperamenten</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Over de bergen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Met het bloed dat drukinkt heet</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>De buitenkant</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Intimiteiten</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Niet te geloven</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>De klopgeest</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Demonen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Hercules</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Gouden woorden</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Komrij, Gerrit</td><td>Morgen heten we allemaal Ali</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kondo, Marie</td><td>Spark Joy - An illustrated master class on the art of organizing and tidying up</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Kondo, Marie</td><td>The Life-Changing Magic of Tidying Up - The Japanese Art of Decluttering and Organizing</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Konrád, György</td><td>De bezoeker</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>De stedebouwer</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>De medeplichtige</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Tuinfeest</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>De oude brug</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Langzame opmerkingen in een snelle tijd</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Melinda en Dragomán</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>De stenen klok</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Nalatenschap</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Amsterdam</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>De onzichtbare stem</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>De oorlog in Joegoslavië</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Geluk</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Zonsverduistering</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Het verdriet van de hanen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Konrád, György</td><td>Slingerbeweging</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Koole, Corine</td><td>De zeven wetten van de liefde</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Koole, Corine</td><td>Verlaten vrouwen</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Kooten, Kees van</td><td>Het groot bescheurboek</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kooten, Kees van</td><td>Modermismen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kooten, Kees van</td><td>Veertig</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kops, Wim</td><td>s-Hertogenbosch - een rijke, roerige en roemruchte geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Korteweg, Ariejan</td><td>Surplace - over de ziel van Frankrijk</td><td>polit</td><td>&nbsp;</td></tr>
+ <tr><td>Kossmann, E.H.</td><td>De Lage Landen 1780-1980</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 1</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Het avondrood der magiërs</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 2</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Een kuil om snikkend in te vallen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 3</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Ethologie en cultuurfilosofie (Johan Huizingalezing 1972)</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 4 - De waanzin aan de macht</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>De logologische ruimte - opstellen over taal</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 5 - Her meer der herinnering</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Nederland: een bewoond gordijn</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Een zuivere schim in een vervuilde schepping (over Konstantin Kavafis)</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 7 - De onmogelijke liefde</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>De archeologie van de auto</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Einsteins poppenhuis - essays over filosofie</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 6 - Het Oostindisch kampsyndroom</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 8 - De vrolijke wanhoop</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Hoger honing</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Opgespoorde wonderen (fotosynthese)</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Verborgen verwantschappen (fotosynthese)</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Het raadsel der herkenning (fotosynthese)</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Medereizigers</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kousbroek, Rudy</td><td>Anathema's 9 - Restjes</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Krielaars, Michel</td><td>Het brilletje van Tsjechov - reizen door Rusland</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Krleza, Miroslav</td><td>De terugkeer van Filip Latinovicz</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Krleza, Miroslav</td><td>Op de rand van het verstand</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Kroonenberg, Salomon</td><td>De menselijke maat -  de aarde over 10.000 jaar</td><td>geolog</td><td>&nbsp;</td></tr>
+ <tr><td>Kroonenberg, Salomon</td><td>Waarom de hel naar zwavel stinkt - mythologie en geologie van de onderwereld</td><td>geolog</td><td>&nbsp;</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Alles went behalve een vent</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>De mannenfluisteraar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Een ster aan het stuur</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Het zit op de bank en het zapt</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Kan ik hem nog ruilen?</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Meneer, als ik u zie heb ik zo'n zin in ruzie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Was hij in de aanbieding?</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Wat rijmt er op huwelijk?</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kroonenberg, Yvonne</td><td>Zij houdt van hem, hij ook</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kruijsen, Joep; Sijs, Nicoline van der (red.)</td><td>Honderd jaar stadstaal</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Kruismans, Bert; Perceval, Peter</td><td>België voor beginnelingen - inburgeringscursus voor het vreemdste land van Europa</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Kruithof, Jacques</td><td>Je moet niet doen of alles hetzelfde is - een pamflet</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Krznaric, Roman</td><td>De wonderbox - verrassende geschiedenissen in levenskunst</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Krznaric, Roman</td><td>Empathie</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Kuijer, Guus</td><td>Hoe een klein rotgodje God vermoordde</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Kuitenbrouwer, Jan</td><td>Turbotaal - van sociobabble tot yuppiespeak</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Kundera, Milan</td><td>De ondraaglijke lichtheid van het bestaan</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Laboa, Juan Maria</td><td>Historische atlas van het christendom</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Labrune, G.; Toutain, Ph.</td><td>L'Histoire de France</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Lademacher, Horst</td><td>Geschiedenis van Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Langer, Michaela; Labuch, Kristin</td><td>Kookboek voor mannen</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Langerhorst, R.P.</td><td>Gegevensanalyse</td><td>inform</td><td>&nbsp;</td></tr>
+ <tr><td>Langeveld, Arthur</td><td>Russische literatuur in een notendop</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Lanoye, Tom</td><td>Alles moet weg</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Lanoye, Tom</td><td>Gelukkige slaven</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Lanoye, Tom</td><td>Heldere hemel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Lanoye, Tom</td><td>Sprakeloos</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Laqueur, Walter</td><td>A History of Zionism</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Larousse</td><td>Larousse de poche - dictionnaire</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Layard, Richard</td><td>Waarom zijn we niet gelukkig?</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Le Goff, Jacques</td><td>De cultuur van middeleeuws Europa</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Le Guillou, Jean-Yves</td><td>Grammaire du Vieux-Russe</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Leerssen, Joep</td><td>De bronnen van het vaderland - taal, literatuur en de afbakening van Ned. 1806-1890</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Leerssen, Joep</td><td>Elementaire deeltjes 23 - Nationalisme</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Leerssen, Joep</td><td>Nationaal denken in Europa - een cultuurhistorische schets</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Leerssen, Joep</td><td>Spiegelpaleis Europa - Europese cultuur als mythe en beeldvorming</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Legrain, Michel; Garnier, Yves (red.)</td><td>Le petit Larousse illustré 2002</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Leidig, Michael; Zoech, Irene</td><td>Wenen (Capitool compactgids)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Leijendekker, Marc</td><td>Het land van de krul - Italië achter de schermen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Lemaire, Ton</td><td>De val van Prometheus - over de keerzijden van de vooruitgang</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Lemerle, Paul</td><td>Geschiedenis van Byzantium</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Lendering, Jona</td><td>De klad in de klassieken</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Leonard, Annie; Conrad, Ariane</td><td>The Story of Stuff (v5.0)</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Leskien, A.</td><td>Handbuch der altbulgarischen Sprache (Grammatik, Texte, Glossar)</td><td>taal_ob</td><td>&nbsp;</td></tr>
+ <tr><td>Levi, Primo</td><td>De verdronkenen en de geredden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Levi, Primo</td><td>Het respijt</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Levi, Primo</td><td>Is dit een mens?</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Levitin, Daniel</td><td>Een Opgeruimde Geest</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Levitin, Daniel</td><td>This is your brain on music - the science of a human obsession</td><td>muziek</td><td>ebook</td></tr>
+ <tr><td>Levy, Ariel</td><td>Female chauvinist pigs - de opkomst van de bimbocultuur</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Lewinsky, Charles</td><td>De verborgen geschiedenis van Courtillon</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Lewinsky, Charles</td><td>Het lot van de familie Meijer</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Lewis, Bernard</td><td>Het Midden-Oosten - 2000 jaar culturele en politieke geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Lewis, Bernard</td><td>The Crisis of Islam - Holy war and unholy terror</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Lewis, Bernard</td><td>What went wrong? Western impact and Middle East Response</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Lewis, Norman</td><td>The new Roget's thesaurus in dictionary form</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Leyers, Jan</td><td>De weg naar Mekka</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>León, Víctor</td><td>Diccionario de argot español</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Lijster, Thijs</td><td>De grote vlucht inwaarts - essays over cultuur in een onoverzichtelijke wereld</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Linschoten, J.</td><td>Idolen van de psycholoog</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Lodewick, H.J.M.F.</td><td>Literaire kunst</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Loo, Bart van</td><td>De Bourgondiërs - aartsvaders van de Lage Landen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Loof, B.H.</td><td>Engels onderweg</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Lotringen, Cees van; Bood, Maurice</td><td>Het gedroomde paradijs - cultuurwijzer voor het Franse leven</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Lunde, Paul</td><td>Islam - geloof, cultuur, geschiedenis</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Luyendijk, Joris</td><td>Dit kan niet waar zijn - onder bankiers</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Luyendijk, Joris</td><td>Een goede man slaat soms zijn vrouw</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Luyendijk, Joris</td><td>Een tipje van de sluier - islam voor beginners</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Luyendijk, Joris</td><td>Een tipje van de sluier islam voor beginners</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Luyendijk, Joris</td><td>Het zijn net mensen</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Luyendijk, Joris</td><td>Kunnen we praten?</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Lyons, Dan</td><td>Disrupted - my misadventure in the start-up bubble</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Lüpke, Kirsten</td><td>Duits - de fijne kneepjes</td><td>taal_du</td><td>&nbsp;</td></tr>
+ <tr><td>Maanen, Hans van</td><td>Goochelen met getallen - cijfers en statistiek in krant en wetenschap</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>MacGregor, Neil</td><td>Duitsland - biografie van een natie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Machiavelli, Niccolò</td><td>De heerser</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Macrone, Michael</td><td>Eureka! - baanbrekende vondsten en ideeën uit de wetenschap</td><td>weten</td><td>&nbsp;</td></tr>
+ <tr><td>Magee, Bryan</td><td>Bekentenissen van een filosoof</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Magris, Claudio</td><td>Donau - reis door de beschaving van Midden-Europa en de crisis van onze tijd</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Maier, Corinne</td><td>Liever lui - de kunst van effectief nietsdoen op het werk</td><td>manag</td><td>&nbsp;</td></tr>
+ <tr><td>Majakovskij, Vladimir</td><td>Een wolk in broek</td><td>poëzie</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>1609 - De vergeten geschiedenis van Hudson, Amsterdam en New York</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>De brug</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Mak, Geert</td><td>De eeuw van mijn vader</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>De goede stad</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Mak, Geert</td><td>De hond van Tisma</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>De levens van Jan Six - een familiegeschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>Een kleine geschiedenis van Amsterdam</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>Gedoemd tot kwetsbaarheid</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Mak, Geert</td><td>Grote verwachtingen - in Europa 1999-2019</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>Het ontsnapte land</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Mak, Geert</td><td>Hoe God verdween uit Jorwerd</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Mak, Geert</td><td>In Europa - reizen door de twintigste eeuw</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Mak, Geert</td><td>Nagekomen flessenpost</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Mak, Geert</td><td>Reizen zonder John</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Mallinckrodt, H.H.</td><td>Latijns-Nederlands woordenboek</td><td>taal_la</td><td>&nbsp;</td></tr>
+ <tr><td>Malling, Alis</td><td>Deense spraakkunst voor iedereen</td><td>taal_de</td><td>&nbsp;</td></tr>
+ <tr><td>Man, John</td><td>Alfa bèta - hoe ons alfabet vormgaf aan de westerse beschaving</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Mann, Charles C.</td><td>1491</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Mann, Charles C.</td><td>1493</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Mann, Charles C.</td><td>The Wizard and the Prophet</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Mann, Klaus</td><td>Mefisto</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Mann, Thomas</td><td>A sketch of my life</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Buddenbrooks (vert. Lowe-Porter)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Confessions of Felix Krull</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Death in Venice</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Doctor Faustus</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Essays of three decades</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Joseph and his brothers</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Letters to Paul Amann</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Reflections of a nonpolitical man</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Royal highness</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Six early stories</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Stories of three decades</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>The beloved returns (Lotte in Weimar)</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>The black swan</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>The magic mountain</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>The tables of the law</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>The transposed heads</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>The war and the future</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>This war</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mann, Thomas</td><td>Tonio Kröger</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Manson, Mark</td><td>The subtle art of not giving a f*ck</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Markhorst, A.C.A; Poulussen, R.H.C.; Smits, M.E.A; Westerhof, A.F.</td><td>Ken uw recht - aangepast aan het nieuw burgerlijk wetboek (1992)</td><td>recht</td><td>&nbsp;</td></tr>
+ <tr><td>Marrs, Jim</td><td>Rule by Secrecy</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Martinez, Raoul</td><td>Hoe vrij zijn wij?</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Maurois, André</td><td>The quest for Proust</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>McConnell, Steve</td><td>Code complete - practical handbook of software construction</td><td>inform</td><td>&nbsp;</td></tr>
+ <tr><td>McEwan, Ian</td><td>Aan Chesil Beach</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>McEwan, Ian</td><td>Solar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Meester, Frank en Maarten</td><td>Meesters in het hier en nu - over 20 jaar Nederlandse filosofie</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Mehler, J.</td><td>Woordenboek op de gedichten van Homerus</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Meijer, Fik</td><td>De Oudheid Is Nog Niet Voorbij</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Meijers, Hein; Rozendaal, Simon</td><td>Het grootste lexicon van nutteloze feiten</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Meijsing, Doeschka</td><td>Over de liefde</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mellersch, H.E.L.</td><td>Wat aan Homerus vooraf ging - de oude Oosterse culturen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Menocal, María Rosa</td><td>De gouden eeuwen van Andalusië</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Mercier, Pascal</td><td>Nachttrein naar Lissabon</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Mersch, Ruben</td><td>Oogklepdenken - waarom we allemaal idioten zijn</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Michels, Ulrich</td><td>Atlas van de muziek - Middeleeuwen en Renaissance</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Mieras, Mark</td><td>Ben ik dat? - wat hersenonderzoek vertelt over onszelf</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Mieras, Mark</td><td>Liefde - wat hersenonderzoek onthult over de klik, de kus en al het andere</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Mill, John Stuart</td><td>Over vrijheid (vert. W.E.Krul)</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Miller, Stephen M.; Huber, Robert V.</td><td>De geschiedenis van de Bijbel - ontstaan en invloed van de bijbel</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Mirsky, D.S.</td><td>A history of Russian literature - from its beginnings to 1900</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Mirsky, D.S.</td><td>Pushkin</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Mishra, Pankaj</td><td>Tijd van woede - Een geschiedenis van het heden</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Mitter, Rana; Pieke, Frank</td><td>Elementaire deeltjes 5 - Modern China</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Molegraaf, Mario</td><td>Onder de Akropolis - kleine geschiedenis van het moderne Griekenland</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Molegraaf, Mario</td><td>Wijn in een notendop</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Montaigne, Michel de</td><td>Essays</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Moor, Ed. de</td><td>Arabische voor beginners</td><td>taal_ar</td><td>&nbsp;</td></tr>
+ <tr><td>Moor, Ed. de</td><td>Basiswoordenlijst Arabisch</td><td>taal_ar</td><td>&nbsp;</td></tr>
+ <tr><td>Moor, Marente de</td><td>De Nederlandse maagd</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Moor, Piet de</td><td>De gelaarsde God</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Moor, Piet de</td><td>Grimmig heden</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Moor, Piet de</td><td>Schemerland</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Moor, Piet de</td><td>Uit de dode hoek</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Morozov, Evgeny</td><td>The Net Delusion</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Morozov, Evgeny</td><td>To Save Everything, Click Here</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Morris, Desmond</td><td>De mensentuin</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Morris, Desmond</td><td>De naakte aap - zoölogische studie van het menselijk dier</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Mortier, Erwin</td><td>Godenslaap</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mul, Jos de</td><td>Paniek in de polder - Polytiek en populisme in Nederland</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De aanslag</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De elementen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De grens</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De ontdekking van de hemel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De procedure</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De pupil</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>De zaak 40-61</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>Het stenen bruidsbed</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>Het zwarte licht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>Oude lucht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>Siegfried</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mulisch, Harry</td><td>Twee vrouwen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Muller, Fred.; Thiel, J.</td><td>Beknopt Grieks-Nederlands woordenboek</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Multituli</td><td>De geschiedenis van Woutertje Pieterse, deel 1</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Multituli</td><td>De geschiedenis van Woutertje Pieterse, deel 2</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Multituli</td><td>Max Havelaar</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Multituli</td><td>Specialiteiten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Musil, Robert</td><td>Der Mann ohne Eigenschaften</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Mutsaers, Charlotte</td><td>Koetsier herfst</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Márai, Sándor</td><td>Bekentenissen van een burger</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Márai, Sándor</td><td>Gloed</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Müller, Werner; Vogel, Günther (red.)</td><td>Atlas van de bouwkunst (2 delen)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Münninghoff, Alexander</td><td>De stamhouder - een familiekroniek</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Ada</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Ada, or Ardor a family chronicle</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Bend Sinister</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Despair</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Invitation to a beheading</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Laughter in the dark</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Lectures on literature</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Lectures on Russian literature</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Lente in Fialta</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Lolita</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Lolita, The Gift, Invitation to a beheading, King Queen Knave, Glory</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Look at the Harlequins</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Mary</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Over een boek getiteld Lolita (vert. Wim Sanders)</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Pale fire, a novel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Pnin</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Selected Letters, 1940-1977</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Speak, memory - an autobiography revisited</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Stories of Vladimir Nabokov</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Strong Opinions</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>The Defense</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>The Enchanter</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>The Eye</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>The Nabokov-Wilson letters, correspondence 1940-1971</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>The Real Life of Sebastian Knight</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>The Tragedy of Mr. Morn</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nabokov, Vladimir</td><td>Transparent things</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nadas, Peter</td><td>A book of memories</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nadeau, Jean-Benoît; Barlow, Julie</td><td>Sixty million Frenchmen can't be wrong - what makes the French so French?</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Nadler, Steven</td><td>Spinoza</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Naifeh, Steven; Smith, Gregory White</td><td>Van Gogh - The Life</td><td>kunst</td><td>ebook</td></tr>
+ <tr><td>Natuurmonumenten</td><td>Complete gids met alle natuur- en wandelgebieden van Nederland</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Nelleke, Bernard</td><td>Eenvoudige algemene muziekleer</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Nemitz, Fritz</td><td>Renoir - 48 reproducties in kleur</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Nettle, Daniel; Romaine, Suzanne</td><td>Uitstervende talen</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Nietzsche, Friedrich</td><td>De antichrist</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Nietzsche, Friedrich</td><td>Ecce Homo - Hoe iemand wordt, wat hij is</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Nieuwenhuyse, Patrick</td><td>Epicurus in 90 minuten</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Nikkels, Eveline</td><td>Gustav Mahler - een leven in tien symfoniën</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Nolthenius, Hélène</td><td>Duecento</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Nolthenius, Hélène</td><td>Renaissance in mei</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Noordhoff Atlasproducties</td><td>De Bosatlas van de geschiedenis van Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Noorman, Jelle</td><td>Een culturele geschiedenis van Frankrijk</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Berlijn 1989 - 2009</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Berlijnse notities</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>De brief</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>De filosoof zonder ogen - Europese reizen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>De omweg naar Santiago</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>De omweg naar Santiago</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>De schrijver als hoofdpersoon - lezen als avontuur</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Een duister voorgevoel - reizen naar Jheronimus Bosch</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Nootebooms hotel</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Rituelen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Roeiers van Port Dauphin</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Nooteboom, Cees</td><td>Wat het oog je vertelt - kijken als avontuur</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Nuchelmans, J.; Diercks, G.F.</td><td>Trias Homerica (3 delen)</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Nurnberg, Maxwell; Rosenblum, Morris</td><td>How to build a better vocabulary</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Nussbaum, Martha</td><td>Niet voor de winst - waarom de democratie de geesteswetenschappen nodig heeft</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Nye, David E.</td><td>Introducing Denmark & the Danes - a two hour briefing</td><td>geogr</td><td>&nbsp;</td></tr>
+ <tr><td>Néret, Gilles</td><td>Gustav Klimt (1862-1918)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Oberski, Jana</td><td>Kinderjaren</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Obolenskij, Dmitri (red.)</td><td>The Heritage of Russian verse (with prose translations)</td><td>poëzie</td><td>&nbsp;</td></tr>
+ <tr><td>Offermans, Cyrille</td><td>Schipbreuk - over kennis, cultuur en beschaving</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Offord, Derek; Gogolitsyna, Natalia</td><td>Using Russian - a guide to contemporary usage</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Onfray, Michel</td><td>Atheologie - hoofdzonden van jodendom, christendom en islam</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Oostendorp, Marc van</td><td>Steenkolen-Engels</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Oosterwijk, Fokkelien</td><td>De bijbel in een notendop</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Oostrom, Frits van</td><td>Maerlants wereld</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Origo, Iris</td><td>De koopman van Prato</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Orschel, Hans</td><td>Kurzgrammatik Russisch</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Ortega y Gasset, José</td><td>The Revolt of the Masses</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>1984</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>A collection of essays</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>Animal farm; 1984</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>Down and out in Paris and London</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>Homage to Catalonia</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>Nineteen eighty-four</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Orwell, George</td><td>The complete novels of George Orwell</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Oudheusden, Jan van</td><td>De Amerikaanse geschiedenis in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Oudheusden, Jan van</td><td>De geschiedenis van het Midden-Oosten in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Oudheusden, Jan van</td><td>De wereldgeschiedenis in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Overbeeke, Emanuel</td><td>Chopin - de man en zijn muziek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Overy, Richard</td><td>The Battle of Britain</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Oz, Amos</td><td>Judas</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Ozjegov, S.I.</td><td>Slovar' russkogo jazyka</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Paap, Wouter</td><td>Mozart - portret van een muziekgenie</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Paap, Wouter</td><td>Wegen en dwaalwegen der muziekkritiek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Packer, George</td><td>De ontluistering van Amerika - een geschiedenis van het nieuwe Amerika van binnenuit</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Paemel, Monika van</td><td>Te zot of te bot</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Palm, Jos</td><td>De vergeten geschiedenis van Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Palm, Jos</td><td>Moederkerk - ondergang van de roomse kerk</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Palmen, Connie</td><td>De vriendschap</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Palmen, Connie</td><td>De wetten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Palmen, Connie</td><td>Het geluk van de eenzaamheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Palmen, Connie</td><td>I.M.</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Palmen, Connie</td><td>Jij zegt het</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Palmer, Leonard R.</td><td>De Aegeïsche wereld - volgens het oudste Griekse schrift</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Parker, Geoffrey; Spaans-van der Bijl, T.</td><td>Filips II - onmachtig koning</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Parks, Tim</td><td>Europa</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Parks, Tim</td><td>Italiaanse buren</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Parks, Tim</td><td>Italiaanse opvoeding</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Patterson, R.F.</td><td>The University English dictionary</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Paulos, John Allen</td><td>A mathematician reads the newspaper</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Paulos, John Allen</td><td>De gecijferde mens - overpeinzingen van een getallenman</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Paulos, John Allen</td><td>Er was eens een getal - wiskunde en de alledaagse werkelijkheid</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Paulos, John Allen</td><td>Ik denk, dus ik lach - alternatieve benadering van de filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Paulos, John Allen</td><td>Ongecijferdheid - de gevolgen van wiskundige ongeletterdheid</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Paz, Octavio</td><td>Het labyrint der eenzaamheid</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Peek, Gustaaf</td><td>Godin, held</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Pels, Dick</td><td>De economie van de eer</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Pels, Dick</td><td>De Geest Van Pim</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Pels, Dick</td><td>Een zwak voor Nederland</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Perel, Esther</td><td>Liefde in verhouding</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Perelman, Ch.</td><td>Retorica en argumentatie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Pessers, Dorien</td><td>Verdwaalde seksen - over sperminators, metroseksuelen en autocopieën</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Peters, Jaap; Pouw, Judith</td><td>Intensieve menshouderij - hoe kwaliteit oplost in rationaliteit</td><td>manag</td><td>&nbsp;</td></tr>
+ <tr><td>Pfeijffer, Ilja Leonard</td><td>De Antieken - een korte literatuurgeschiedenis</td><td>liter</td><td>ebook</td></tr>
+ <tr><td>Pfeijffer, Ilja Leonard</td><td>Gelukszoekers</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Pfeijffer, Ilja Leonard</td><td>Grand Hotel Europa</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Pfeijffer, Ilja Leonard</td><td>La superba</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Philipse, Herman</td><td>Atheïstisch manifest en De onredelijkheid van religie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Philipse, Herman</td><td>Filosofische polemieken</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Phythian, B.A.</td><td>A Concise Dictionary of correct English</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Phythian, B.A.</td><td>A Concise Dictionary of English idioms</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Phythian, B.A.</td><td>A Concise Dictionary of English slang</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Pickover, Clifford A.</td><td>Het wiskundeboek - 250 mijlpalen in de geschiedenis van de wiskunde</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Piketty, Thomas</td><td>Kapitaal in de 21e eeuw</td><td>econ</td><td>ebook</td></tr>
+ <tr><td>Pinker, Steven</td><td>Enlightenment Now: The Case for Reason, Science, Humanism, and Progress</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Pinker, Steven</td><td>Het onbeschreven blad - de ontkenning van een aangeboren menselijke natuur</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Pinker, Steven</td><td>Het taalinstinct - het taalscheppende vermogen van de mens</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Pinker, Steven</td><td>How the mind works</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Pinker, Steven</td><td>The Better Angels of Our Nature - Why Violence Has Declined</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Pinker, Steven</td><td>The Stuff of Thought</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Pischel, Gina</td><td>Elseviers grote kunstgeschiedenis</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Pleij, Herman</td><td>Hollands welbehagen</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Pleij, Herman</td><td>Moet kunnen - op zoek naar een Nederlandse identiteit</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Pleij, Herman</td><td>Tegen de barbarij - tegendraadse stukken over de Nederlandse beschaving</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Ploetz, Karl</td><td>Kalendarium der wereldgeschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Pol, J.H.J. van de</td><td>Spellinggids (1997)</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Politkovskaja, Anna</td><td>Poetins Rusland</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Popper, Karl R.</td><td>De groei van kennis</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Portegies, Annette; Rijghard, Ron</td><td>Nederlandse literatuur in een notendop</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Portillo, Michael</td><td>Portillo's Hidden History of Britain</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Portway, Christopher</td><td>De treinreiziger</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Postman, Neil</td><td>Weloverwogen bezwaren</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Postman, Neil</td><td>Wij amuseren ons kapot - de geestdodende werking van de beeldbuis</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Potter, Dennis</td><td>De zingende detective</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Prins, Aai; Skonratovskaja, Veronika</td><td>Wat en Hoe taalgids Russisch</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Proust, Marcel</td><td>In search of lost time</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Proust, Marcel</td><td>The Lemoine affair</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Prus, Boleslaw</td><td>De pop</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Puett, Michael; Gross-Loh, Christine</td><td>De weg - wat Chinese filosofen ons over het goede leven leren</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Puls, Diego; Bartolomé, Carmen</td><td>Wat en Hoe taalgids Spaans</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Putten, Jan van</td><td>Politieke stromingen</td><td>polit</td><td>&nbsp;</td></tr>
+ <tr><td>Pye, Michael</td><td>Aan de rand van de wereld - Hoe de Noordzee ons vormde</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Quennell, Peter</td><td>Vladimir Nabokov - a tribute - his life, his work, his world</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Raay, Rob van (red.)</td><td>Wat heet mooi? Klein filosofisch citatenboek</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Raisson, Elisabeth</td><td>Taaltraining Frans - basistraining - 2000 oefeningen</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Rand, Ayn</td><td>The Fountainhead</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Read, Herbert</td><td>Filosofie van de moderne kunst</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Reelick, Lex; Swanenberg, Cor; Verzandvoort, Erwin; Wouters, Michel</td><td>Bosch' woordenboek</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Regt, Herman de; Dooremalen, Hans</td><td>Wat een onzin! Wetenschap en het paranormale</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Reichenfeld, Katja</td><td>Klassieke muziek in een notendop</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Reijngoud, Tobias (red.)</td><td>Weten is meer dan weten - de economisering van de samenleving</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Remarque, Erich Maria</td><td>All quiet on the western front</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Remarque, Philippe</td><td>Boze geesten van Berlijn</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Renkema, Jan</td><td>Schrijfwijzer - volledig herziene editie</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Rentes de Carvalho, J.</td><td>Waar die andere God woont</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Gerard</td><td>Op weg naar het einde</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Afscheid van Leiden</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>De literator en de holbewoner</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>De ondergang van het morgenland</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>De ongelooflijke slechtheid van het opperwezen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Een dag uit het leven van de reuzenkoeskoes</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Freud, Stalin en Dostojevski</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Geschiedenis van de Russische literatuur (Vladimir de Heilige - Tsjechov)</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Het geloof der kameraden</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Lenin heeft echt bestaan</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Literatuurwetenschap: het raadsel der onleesbaarheid</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Marius wil niet in Joegoslavië wonen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Met twee potten pindakaas naar Moskou</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Rusland voor beginners</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Siberisch dagboek</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Reve, Karel van 't</td><td>Uren met Henk Broekhuis</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Rey, Alain (red.)</td><td>Le Robert micro - dictionnaire de la langue française</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Reybrouck, David van</td><td>Congo</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Reybrouck, David van</td><td>Pleidooi voor populisme</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Rickard, Peter</td><td>A history of the French language</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Riemen, Rob</td><td>Adel van de geest - een vergeten ideaal</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Riemen, Rob</td><td>De eeuwige terugkeer van het fascisme</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Riemen, Rob (red.)</td><td>Nexus 2006, nr.46</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Riemens, K.J.</td><td>Basisvocabulaire voor het eindexamen Frans, deel II</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Rietdijk-Helmer, Maria L.A. (red.)</td><td>Steeds minder leren - de tragedie van de onderwijshervormingen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Riewald, J.G.</td><td>Word Study - graded English vocabulary for Dutch Secondary students 2</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Riewald, J.G.</td><td>Word Study - graded English vocabulary for Dutch Secondary students 3</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Ritsema, Beatrijs</td><td>Als ze maar gelukkig zijn - over kinderen, opvoeden en onderwijs</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Rizvi, Ali A.</td><td>The atheist muslim</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Robb, Graham</td><td>De ontdekking van Frankrijk</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Robb, Graham</td><td>Parijzenaars</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Robbins Landon, H.C.</td><td>Wolfgang Amadeus Mozart - volledig overzicht van zijn leven en muziek</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Roberts, J.M.</td><td>Aula wereldgeschiedenis (6 delen)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Robin, Corey</td><td>The reactionary mind</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Robinson, Andrew</td><td>Alfabet, hiëroglief en pictogram - de geschiedenis van het schrift</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Rogier, L.J.</td><td>Eenheid en scheiding - geschiedenis der Nederland 1477 - 1813</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Roiphe, Katie</td><td>Lof van het rommelige leven</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Romein, Jan en Annie</td><td>De lage landen bij de zee (2 delen)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Romer, John</td><td>Geschiedenis en archeologie van de Bijbel</td><td>relig</td><td>&nbsp;</td></tr>
+ <tr><td>Rooijendijk, Cordula</td><td>Alles moest nog worden uitgevonden - ontstaangeschiedenis van de computer</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Rooney, Sally</td><td>Normal people</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roosmalen, Marc van</td><td>Darwin in een notendop</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Rosenboom, Thomas</td><td>De nieuwe man</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Rosenboom, Thomas</td><td>De rode loper</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Rosenboom, Thomas</td><td>Denkend aan Holland</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Rosenboom, Thomas</td><td>Vriend van verdienste</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Rosenboom, Thomas</td><td>Zoete mond</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Rosling, Hans</td><td>Feitenkennis - Tien redenen waarom we een verkeerd beeld van de wereld hebben en waarom het beter gaat dan je denkt</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Rossem, Maarten van</td><td>De wereld volgens Maarten van Rossem</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Rossem, Maarten van</td><td>Heeft geschiedenis nut?</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Rossem, Maarten van</td><td>In Amerika</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Rossem, Maarten van</td><td>Kapitalisme zonder remmen - opkomst en ondergang van het marktfundamentalisme</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Rossem, Maarten van</td><td>Typisch Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Rossem, Maarten van</td><td>Waarom is de burger boos? - over hedendaags populisme</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Roszak, Theodore</td><td>De informatiecultus - computerfolklore en de kunst van het denken</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Roth, Joseph</td><td>Hotel Savoy</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roth, Joseph</td><td>Job</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roth, Joseph</td><td>Radetzky march</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roth, Joseph</td><td>Tarabas</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roth, Joseph</td><td>The emperors tomb</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roth, Joseph</td><td>The silent prophet</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Roth, Joseph</td><td>Werke, deel 4, 5 en 6</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Rotterdam, Marjolein van</td><td>Werelderfgoed van Nederland (Unesco-monumenten van nu en toekomst)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Rowe, W.W.</td><td>Nabokov's spectral dimension</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Royen, René van; Vegt, Sunnyva van der</td><td>Asterix en de wijde wereld</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Rushkoff, Douglas</td><td>Life Inc. - how the world became a corporation and how to take it back</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Russell, Bertrand</td><td>De verovering van het geluk</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Russell, Bertrand</td><td>Geschiedenis der westerse filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Russell, Bertrand</td><td>History of Western Philosophy</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Russell, Bertrand</td><td>Huwelijk en moraal</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Russell, Bertrand</td><td>Problemen der filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Russell, Bertrand</td><td>Waarom ik geen christen ben</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Saarloos, Simone van</td><td>Het monogame drama</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Sacks, Oliver</td><td>De man die zijn vrouw voor een hoed hield - neurologische case-histories</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Sacks, Oliver</td><td>Het innerlijk oog</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Sacks, Oliver</td><td>Musicofilia - verhalen over muziek en het brein</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Safranski, Rüdiger</td><td>Arthur Schopenhauer - de woelige jaren van de filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Safranski, Rüdiger</td><td>Nietzsche - een biografie van zijn denken</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Said, Edward W.</td><td>Oriëntalisten</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Salmon, Mark</td><td>Denmark - culture smart! -  a quick guide to customs and etiquette</td><td>geogr</td><td>ebook</td></tr>
+ <tr><td>Salter, James</td><td>Alles wat is</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sandberg, Kristina</td><td>Leven tot elke prijs</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sandel, Michael J.</td><td>Niet alles is te koop - de morele grenzen van marktwerking</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Sandel, Michael J.</td><td>Pleidooi tegen volmaaktheid - een ethiek voor gentechnologie</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Sandel, Michael J.</td><td>Rechtvaardigheid - wat is de juiste keuze?</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Sansot, Pierre</td><td>De kunst van het onthaasten - lessen van een levensgenieter</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Sante, Luc</td><td>Het andere Parijs - stad van het volk</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Saramago, Jose</td><td>Het evangelie volgens Jezus Christus</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sartre, Jean-Paul</td><td>De woorden - memoires van een mislukt wonderkind</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Sasaki, Fumio</td><td>Vaarwel, spullen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Schaik, Carel van; Michel, Kai</td><td>Het oerboek van de mens - de evolutie en de bijbel</td><td>relig</td><td>ebook</td></tr>
+ <tr><td>Schama, Simon</td><td>Citizens - A Chronicle of the French Revolution</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Schama, Simon</td><td>De Amerikaanse toekomst - een geschiedenis</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Schama, Simon</td><td>Overvloed en onbehagen - De Nederlandse cultuur in de Gouden Eeuw</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Schama, Simon</td><td>Rembrandts Eyes [1999]</td><td>kunst</td><td>ebook</td></tr>
+ <tr><td>Scheffer, Paul</td><td>Het land van aankomst</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Schinkel, Willem</td><td>De nieuwe democratie - naar andere vormen van politiek</td><td>polit</td><td>&nbsp;</td></tr>
+ <tr><td>Schipper, Mineke</td><td>Realisme - de illusie van werkelijkheid in literatuur</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Schippers, Arie; Versteegh, Kees</td><td>Het Arabisch - norm en realiteit</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Schneider, J.</td><td>Deutscher Wortschatz</td><td>taal_du</td><td>&nbsp;</td></tr>
+ <tr><td>Scholten, Jaap</td><td>Kameraad Baron - reis door de verdwijnende wereld van de Transsylvaanse aristocratie</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Schopenhauer, Arthur</td><td>Er is geen vrouw die deugt</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Schopenhauer, Arthur</td><td>Het nut van vrome leugens - over godsdienst</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Schorske, Carl E.</td><td>Wenen in het fin de siècle - de crisis van het liberalisme en het ontstaan van de moderne kunst</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Schotanus, Yke</td><td>De draak van de donken - fantastische feiten en realistische verhalen (Den Bosch)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Schrijvers, Joep P.M.</td><td>Het wilde vlees - de tomtomisering van de passionele mens</td><td>manag</td><td>&nbsp;</td></tr>
+ <tr><td>Schrijvers, Joep P.M.</td><td>Hoe word ik een rat? - de kunst van het konkelen en samenzweren</td><td>manag</td><td>&nbsp;</td></tr>
+ <tr><td>Schuerewegen, Franc; Smeets, Marc</td><td>Franse literatuur in een notendop</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Schulte Nordholt, Henk</td><td>China en de barbaren - het verzet tegen de westerse wereldorde</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Schulte Nordholt, J.W.</td><td>De Verenigde Staten - het grote experiment</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Schulze, Dieter</td><td>Krakau (ANWB extra)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Schulze, Hagen</td><td>Germany - a new history</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Schuringa, Ir. H.A.</td><td>De mens centraal (vraaggesprekken met div. personen)</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Schwarz, Alexander; Burger-Schwarz, Sabine; Zee, John van der</td><td>Spreekwijzer Duits - 3000 uitdrukkingen en zegswijzen</td><td>taal_du</td><td>&nbsp;</td></tr>
+ <tr><td>Schönburg, Alexander von</td><td>De kunst van het besparen - stijlvol omgaan met minder geld</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>A short history of modern philosophy - from Descartes to Wittgenstein</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>Conservatism - an invitation to the Great Tradition</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Scruton, Roger</td><td>Filosofisch denken - een handleiding voor nieuwsgierige mensen</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>Fools, Frauds and Firebrands</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Scruton, Roger</td><td>Groene filosofie - verstandig nadenken over onze planeet</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>Het nut van pessimisme en de gevaren van valse hoop</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>Het Westen en de islam - over globalisering en terrorisme</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>How to be a conservative</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Scruton, Roger</td><td>Schoonheid</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>Spinoza</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Scruton, Roger</td><td>Waarom cultuur belangrijk is</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Sctrick, Robert</td><td>Ecrire, parler: les 100 difficultés du français</td><td>taal_fr</td><td>&nbsp;</td></tr>
+ <tr><td>Sebag Montefiore, Simon</td><td>De Romanovs 1613-1918</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sebag Montefiore, Simon</td><td>Jerusalem - The Biography</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sebag Montefiore, Simon</td><td>Jeruzalem - de biografie</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sebag Montefiore, Simon</td><td>Stalin - het hof van de rode tsaar</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sebag Montefiore, Simon</td><td>Stalins jeugdjaren - van rebel tot rode tsaar</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sedaris, David</td><td>De lachvogel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sedaris, David</td><td>Ik mooi praten</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sedaris, David</td><td>Naakt</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sedaris, David</td><td>Van je familie moet je het hebben</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sedaris, David</td><td>Wanneer je omringd bent door vlammen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Sedlacek. Tomas</td><td>Economics of Good and Evil - The Quest for Economic Meaning from Gilgamesh to Wall Street</td><td>econ</td><td>ebook</td></tr>
+ <tr><td>Sennett, Richard</td><td>De cultuur van het kapitalisme</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Sennett, Richard</td><td>De flexibele mens - psychogram van de moderne samenleving</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Sennett, Richard</td><td>Respect in een tijd van sociale ongelijkheid</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Sennett, Richard</td><td>The Craftsman</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Shakespeare, William</td><td>Macbeth</td><td>drama</td><td>ebook</td></tr>
+ <tr><td>Shakespeare, William</td><td>Macbeth</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>Shakespeare, William</td><td>Macbeth (vert. W. Courteaux)</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>Shakespeare, William</td><td>The complete works 2nd ed.</td><td>drama</td><td>ebook</td></tr>
+ <tr><td>Shakespeare, William</td><td>William Shakespeare dictionary</td><td>liter</td><td>ebook</td></tr>
+ <tr><td>Shell Nederland</td><td>Energie</td><td>fysica</td><td>&nbsp;</td></tr>
+ <tr><td>Shorto, Russell</td><td>Amsterdam - geschiedenis van de meest vrijzinnige stad ter wereld</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Shorto, Russell</td><td>The Island at the Center of the World - The Epic Story of Dutch Manhattan and the Forgotten Colony That Shaped America</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sijs, Nicoline van der</td><td>Calendarium van de Nederlandse taal - geschiedenis van het Nederlands in jaartallen</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der</td><td>Chronologisch woordenboek</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der</td><td>Geleend en uitgeleend - Nederlandse woorden in andere talen & andersom</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der</td><td>Geschiedenis van het Nederlands in een notendop</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der</td><td>Leenwoordenboek</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der (red.)</td><td>Dialectatlas van het Nederlands</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der; Engelsman, Jaap</td><td>Nota bene - de invloed van het Latijn en Grieks op het Nederlands</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Sijs, Nicoline van der; Stroop, Jan; Weerman, Fred (red.)</td><td>Wat iedereen van het Nederlands moet weten en waarom</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Simek, Martin</td><td>De vuurvliegjes achterna</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Simenon, Georges</td><td>104 boeken</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Simms, Brendan</td><td>Europe - The Struggle for Supremacy, from 1453 to the Present</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Simon, Coen</td><td>En toen wisten we alles - een pleidooi voor oppervlakkigheid</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Simon, Coen</td><td>Zo begint iedere ziener - een filosofische ontdekking van de wereld</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Singer, Peter</td><td>Animal Liberation</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Singer, Peter</td><td>Een ethisch leven</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Singer, Peter</td><td>Hegel - A Very Short Introduction</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Singer, Peter</td><td>How are we to live</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Singer, Peter</td><td>In Defense of Animals</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Singer, Peter</td><td>Practical Ethics</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Singer, Peter</td><td>The Way We Eat - Why Our Food Choices Matter</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Singor, Henk</td><td>Constantijn - en de christelijke revolutie in het Romeinse Rijk</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Singor, Henk; Naerebout, Frederik</td><td>Antiquity. Greeks and Romans in Context [2014]</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Sitskoorn, Margriet</td><td>Het maakbare brein - gebruik je hersens en word wie je wilt zijn</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Sjklovskij, Viktor</td><td>Sentimentele reis</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Skakov, Nariman</td><td>The Cinema of Tarkovsky - Labyrinths of Space and Time (Movie Film Art Ebook)</td><td>film</td><td>ebook</td></tr>
+ <tr><td>Skidelsky, Robert en Edward</td><td>How Much Is Enough</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Skinner, Stephen</td><td>Geheime geometrie - mysterieuze wetten van de heilige geometrie in kunst, natuur en wetenschap</td><td>wisk</td><td>&nbsp;</td></tr>
+ <tr><td>Slager, E.</td><td>Grammatica Spaans</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Smart, Jack; Altorfer, Frances</td><td>A complete course in reading and writing Arabic</td><td>taal_ar</td><td>&nbsp;</td></tr>
+ <tr><td>Smith, Zadie</td><td>Changing my mind</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Smith, Zadie</td><td>NW</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Smith, Zadie</td><td>On beauty</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Smith, Zadie</td><td>The Autograph Man</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Smith, Zadie</td><td>The book of other people</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Smith, Zadie</td><td>White Teeth</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Smits, Hans</td><td>Kleine geschiedenis van de Berlijnse hereniging</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Smits, Rik</td><td>Dageraad - Hoe taal de mens maakte</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Snyder, Timothy</td><td>Bloedlanden, Europa tussen Hitler en Stalin</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Snyder, Timothy</td><td>De weg naar onvrijheid - Rusland, Europa, Amerika</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Snyder, Timothy</td><td>Over tirannie - twintig lessen uit de twintigste eeuw </td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Sologoeb, Fjodor</td><td>Een kleine demon</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Soma</td><td>Vladimir Nabokov (Soma, nr.18/19)</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Sommer, Martin</td><td>Onder onderwijzers - en andere gemengde berichten</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Sontag, Susan</td><td>In het teken van Saturnus</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Sontag, Susan</td><td>On photography</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Sorensen, Annelise; Chandler, Ryan</td><td>Barcelona (Capitool compactgids)</td><td>reizen</td><td>&nbsp;</td></tr>
+ <tr><td>Spitzer, Manfred</td><td>Digitale dementie - hoe wij ons verstand kapotmaken</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Staal, Frits</td><td>Over zin en onzin in filosofie, religie en wetenschap</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Staines, Joe (red.)</td><td>Classical music (rough guide) - composers, key works and top recordings</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Starink, Laura</td><td>Slag om Oekraïne - referendum over een land in opstand</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Steiner, George</td><td>After Babel - aspects of language and translation</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>De toekomst van het boek</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>Een seizoen in de hel - over de toekomst van het Westen</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>Heeft waarheid een toekomst?</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>Het oog van de meester</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>Het verbroken contact</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>In de burcht van Blauwbaard</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>Language & silence - essays on language, literature and the inhuman</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steiner, George</td><td>Verval van het woord</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Steinz, Pieter</td><td>Made in Europe - de kunst die ons continent bindt</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Steinz, Pieter & Jet</td><td>Steinz - gids voor de wereldliteratuur</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Stender-Petersen, Adolf</td><td>Geschichte der russischen Literatur</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Stenger, Victor J.</td><td>The Incompatibility of Science and Religion</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Stevenson, Victor</td><td>Atlas van de Europese talen - geschiedenis en ontwikkeling</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Stevenson, Victor</td><td>Woorden - een geïllustreerde geschiedenis van de westerse talen</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Stigchel, Stefan van der</td><td>Zo werkt aandacht - opvallen, kijken en zoeken in een wereld vol afleiding</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Stoetzer, Willem</td><td>Arabische grammatica in schema's en regels</td><td>taal_ar</td><td>&nbsp;</td></tr>
+ <tr><td>Stokkom, Bas van</td><td>Wat een hufter! - ergernis, lichtgeraaktheid en maatschappelijke verruwing</td><td>socio</td><td>&nbsp;</td></tr>
+ <tr><td>Stoks, F.C.M.</td><td>Duitse spraakkunst voor iedereen</td><td>taal_du</td><td>&nbsp;</td></tr>
+ <tr><td>Straaten, Peter van</td><td>Agnes Agnes; Niet doen Agnes; Ciao Agnes</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Straaten, Peter van</td><td>Luxe-verdriet</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Störig, Hans Joachim</td><td>Geschiedenis van de filosofie</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Störig, Hans Joachim</td><td>Taal - het grote avontuur</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Sutherland, Stuart</td><td>Irrationaliteit</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Svevo, Italo</td><td>Bekentenissen van Zeno</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Swaab, Dick</td><td>Wij zijn ons brein - van baarmoeder tot alzheimer</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Swaan, Abram de</td><td>Het medisch regiem</td><td>medis</td><td>&nbsp;</td></tr>
+ <tr><td>Swaan, Abram de</td><td>Woorden van de wereld - het mondiale talenstelsel</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Swanenberg, Jos en Cor</td><td>Oost-Brabants (taal in stad en land)</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Swift, Simon</td><td>Hannah Arendt (Routledge Critical Thinkers)</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Taleb, Nassim Nicholas</td><td>Antifragiel - dingen die baat hebben bij wanorde</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Taleb, Nassim Nicholas</td><td>De zwarte zwaan - De impact van het hoogst onwaarschijnlijke</td><td>econ</td><td>&nbsp;</td></tr>
+ <tr><td>Taleb, Nassim Nicholas</td><td>Misleid door toeval - over de rol van geluk in de economie en het leven</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Tannahill, Reay</td><td>Sex in history</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Taranov, Andrey</td><td>Nederlands-Deens woordenschat</td><td>taal_de</td><td>ebook</td></tr>
+ <tr><td>Tarkovskij, Andrej</td><td>Sculpting in Time - Tarkovsky, The Great Russian Filmaker Discusses His Art</td><td>film</td><td>ebook</td></tr>
+ <tr><td>Tarkovskij, Andrej</td><td>Sculpting in time - the great Russian filmmaker discusses his art</td><td>film</td><td>&nbsp;</td></tr>
+ <tr><td>Tarkovskij, Andrej</td><td>Time Within Time - The Diaries 1970-1986 (Film Cinema ebook)</td><td>film</td><td>ebook</td></tr>
+ <tr><td>Tartt, Donna</td><td>De kleine vriend</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Tartt, Donna</td><td>De verborgen geschiedenis</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Tartt, Donna</td><td>Het puttertje</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Tauscher, E.; Kirschbaum, E.-G.</td><td>Grammatik der russischen Sprache</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Ten Cate-Silfwerbrand, Ragnhild</td><td>Zweedse spraakkunst voor iedereen</td><td>taal_zw</td><td>&nbsp;</td></tr>
+ <tr><td>Tengbergen, Maarten; Michajlova, Irina</td><td>Prisma Spreekwijzer Russisch - 3000 uitdrukkingen en zegswijzen</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Terts, Abram</td><td>Drie verhalen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Terts, Abram</td><td>Een stem uit het koor</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Terts, Abram</td><td>Fantastische verhalen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Terts, Abram</td><td>Ljoebimov</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Thomas, Dylan</td><td>Onder het melkwoud</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>Thomas, Dylan</td><td>Under Milkwood</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>Thomése, P.F.</td><td>De onderwaterzwemmer</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Thomése, P.F.</td><td>De weldoener</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Thomése, P.F.</td><td>Greatest hits</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Thomése, P.F.</td><td>Het zesde bedrijf</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Thomése, P.F.</td><td>Schaduwkind</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Thomése, P.F.</td><td>Vladivostok!</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Thomése, P.F.</td><td>Zuidland</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Thorne, Matt</td><td>Prince</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Tocqueville, Alexis de</td><td>Democracy in America</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Tomalin, Claire</td><td>Charles Dickens - a life</td><td>liter</td><td>ebook</td></tr>
+ <tr><td>Trevelyan, G.M.</td><td>A shortened history of England</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Truijens, Aleid</td><td>Opvoeden! - een nieuwe blik op een eeuwenoud beroep</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Tsjechov, Anton P.</td><td>15 beroemde verhalen</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Tsjechov, Anton P.</td><td>Verzamelde werken: deel VI - Toneel</td><td>drama</td><td>&nbsp;</td></tr>
+ <tr><td>Tuchman, Barbara W.</td><td>A Distant Mirror - The Calamitous 14th Century</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Tuchman, Barbara W.</td><td>First Salute</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Tuchman, Barbara W.</td><td>Practicing History - Selected Essays</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Tuchman, Barbara W.</td><td>Proud Tower</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Tuchman, Barbara W.</td><td>The Guns of August</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Tuchman, Barbara W.</td><td>The March of Folly - From Troy to Vietnam</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Twain, Mark</td><td>Complete Mark Twain</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Törkenczy, Miklós</td><td>Practical Hungarian Grammar</td><td>taal_ho</td><td>&nbsp;</td></tr>
+ <tr><td>Ulrich, Hans</td><td>De 20e eeuw in een notendop</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Van Goor Zonen</td><td>Van Goor's klein Deens woordenboek</td><td>taal_de</td><td>&nbsp;</td></tr>
+ <tr><td>VandenBroucke, Dieter</td><td>Grijs geheugen - geschiedenis van Nederland en Vlaanderen (3 delen)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Vasari, Giorgio</td><td>De levens van de kunstenaars I</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Veatch, Henry B.</td><td>Aristoteles beschouwd als tijdgenoot</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Veen, P.A.F. van; Sijs, Nicoline van der</td><td>Etymologisch woordenboek - de herkomst van onze woorden</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Verbogt, Thomas</td><td>Als de winter voorbij is</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verbogt, Thomas</td><td>Kleur van geluk</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verbrugge, Ad</td><td>Tijd van onbehagen - filosofische essays over een cultuur op drift</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Verburgh, Kris</td><td>De voedselzandloper</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Verhaar, Herman</td><td>Franz Kafka of schrijven uit onmacht</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Verhaeghe, Paul</td><td>Identiteit - we genieten ons te pletter maar niemand is tevreden</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Verhaeghe, Paul</td><td>Liefde in tijden van eenzaamheid - over drift en verlangen</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Verhees, Ernest; Vos, Aart</td><td>Historische atlas van 's-Hertogenbosch (ruimtelijke ontw. vestingstad)</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>De helaasheid der dingen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>De intrede van Christus in Brussel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>De kamer hiernaast</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>De laatkomer</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>Dinsdagland</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>Godverdomse dagen op een godverdomse bol</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>Mevrouw Verona daalt de heuvel af</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Verhulst, Dimitri</td><td>Problemski hotel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Vermes, Geza</td><td>The Story of the Scrolls - The Miraculous Discovery and True Significance of the Dead Sea Scrolls</td><td>relig</td><td>ebook</td></tr>
+ <tr><td>Verouden, Ferrie</td><td>Het alfabet van A to Z - alles over alfabetten</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Verstraten, Frans</td><td>Psychologie in een notendop</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Verveen, Jos</td><td>Bullshit management</td><td>socio</td><td>ebook</td></tr>
+ <tr><td>Verwer, Renzo</td><td>De liefdesmarkt - een handboek</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Vestdijk, Simon</td><td>De glanzende kiemcel</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Vestdijk, Simon</td><td>De toekomst der religie</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Vestdijk, Simon</td><td>Essays in duodecimo</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Visser, Carolijn</td><td>Selma</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Vogel, Günter; Angermann, Hartmut</td><td>Atlas bij de biologie (2 delen)</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Vogt, Helger Oleg</td><td>Russische woordenschat</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Voigt, Wolfgang (red.)</td><td>Leitfaden der russischen Grammatik</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Vonk, Roos</td><td>Menselijke gebreken voor gevorderden</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Voogd, Christophe de</td><td>Geschiedenis van Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Vos, Louis; Goddeeris, Idesbald</td><td>Een geschiedenis van Polen</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Vos, Pim de</td><td>Achter de blinddoek van vrouwe Justitia - ethiek, emotie en geweten in de rechtszaal</td><td>recht</td><td>&nbsp;</td></tr>
+ <tr><td>Vossestein, Jacob</td><td>Werken met Oost-Europa</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Vosters, S.A.</td><td>Nederlands-Spaans woordenboek</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Vosters, S.A.</td><td>Spaans-Nederlands woordenboek</td><td>taal_sp</td><td>&nbsp;</td></tr>
+ <tr><td>Vreede, Andrea</td><td>De magie van Rome</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Vries, J. de</td><td>Etymologisch woordenboek - waar komen onze woorden vandaan?</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Vries, Jan W.; Willemyns, Roland; Burger, Peter</td><td>Het verhaal van een taal - negen eeuwen Nederlands</td><td>taalk</td><td>&nbsp;</td></tr>
+ <tr><td>Vriesekoop, Bettine</td><td>Bij de Chinees</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Vriesekoop, Bettine</td><td>Duizend dagen in China</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Vriesekoop, Bettine</td><td>Heimwee naar Peking</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Vriesekoop, Bettine</td><td>Het jaar van de Rat</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Vroon, Piet</td><td>Allemaal psychisch</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Vroon, Piet</td><td>Intelligentie - het meten van een mythe en de politieke, sociale en onderwijsk. gevolgen</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Vroon, Piet</td><td>Tranen van de krokodil - de te snelle evolutie van onze hersenen</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Vroon, Piet</td><td>Wolfsklem - evolutie van het menselijk gedrag</td><td>psych</td><td>&nbsp;</td></tr>
+ <tr><td>Waal, Frans de</td><td>Are We Smart Enough to Know How Smart Animals Are?</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Waal, Frans de</td><td>The Age of Empathy - Nature's Lessons for a Kinder Society</td><td>biolog</td><td>ebook</td></tr>
+ <tr><td>Waal, Merijn de</td><td>Spaanse sporen - een journalistieke zoektocht naar het hart van Spanje</td><td>geogr</td><td>&nbsp;</td></tr>
+ <tr><td>Wachter, Dirk de</td><td>Borderline times - het einde van de normaliteit</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Wade, Terence</td><td>A comprehensive Russian grammar</td><td>taal_ru</td><td>&nbsp;</td></tr>
+ <tr><td>Wagendorp, Bert</td><td>Ventoux</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Walker, Jesse</td><td>The United States of Paranoia - a conspiracy theory</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wallace, David Foster</td><td>Infinite Jest</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Waterdrinker, Pieter</td><td>De correspondent</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Waterdrinker, Pieter</td><td>Lenins balsem</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Waterdrinker, Pieter</td><td>Tsjaikovskistraat 40</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Watson, Peter</td><td>Grondleggers van de moderne wereld - een geschiedenis van de 20e eeuw</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Weijers, Niña</td><td>De consequenties</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Weijnen, A.</td><td>Nederlands (Prisma woordenboek)</td><td>taal_nl</td><td>&nbsp;</td></tr>
+ <tr><td>Weijts, Christiaan</td><td>Euforie</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Weinberg, Steven</td><td>To Explain the World - The Discovery of Modern Science</td><td>weten</td><td>ebook</td></tr>
+ <tr><td>Weis, Erich; Groot, G. de</td><td>Engelse woordenschat (alfabetische basisvocabulaire met system. uitbr.)</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Weisman, Alan</td><td>De wereld zonder ons</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Welten, Ruud</td><td>Het ware leven is elders - filosofie van het toerisme</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Westbroek, Peter</td><td>De ontdekking van de aarde - het grote verhaal van een kleine planeet</td><td>geolog</td><td>&nbsp;</td></tr>
+ <tr><td>Wester, Jet; Krol, Gerrit; Crombach, Charles</td><td>Gaat het Nederlands teloor? - 3 essays</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Westerman, Frank</td><td>Ararat</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Westerman, Frank</td><td>De graanrepubliek</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Westerman, Frank</td><td>Dier, bovendier</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Westerman, Frank</td><td>El negro en ik</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Westerman, Frank</td><td>Ingeniers van de ziel</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Westerman, Frank</td><td>Wij, de mens</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Westerman, Mariët</td><td>De schilderkunst van de Republiek (1585-1717)</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Weststeijn, Willem G.</td><td>Russische literatuur</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Wheelan, Charles</td><td>Naked economics</td><td>econ</td><td>ebook</td></tr>
+ <tr><td>White, Colin; Boucke, Laurie</td><td>The Undutchables - leven in Holland</td><td>varia</td><td>&nbsp;</td></tr>
+ <tr><td>Wickler, W.</td><td>De aard van het beestje - de natuurwetten van het seksuele contact</td><td>biolog</td><td>&nbsp;</td></tr>
+ <tr><td>Wieringa, Tommy</td><td>Caesarion</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wieringa, Tommy</td><td>De familie onderweg</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wieringa, Tommy</td><td>Dit zijn de namen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wieringa, Tommy</td><td>Een mooie jonge vrouw</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wieringa, Tommy</td><td>Joe speedboot</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wijnberg, Jeffrey</td><td>Het neurotisch handboek</td><td>psych</td><td>ebook</td></tr>
+ <tr><td>Wijnberg, Rob</td><td>Boeiuh! - het stille protest van de jeugd</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Wijnberg, Rob</td><td>En mijn tafelheer is Plato</td><td>filos</td><td>ebook</td></tr>
+ <tr><td>Wijnberg, Rob</td><td>En mijn tafelheer is Plato - een filosofische kijk op de actualiteit</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Wijnberg, Rob</td><td>In dubio - vrijheid van meningsuiting als het recht om te twijfelen</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Wijnberg, Rob</td><td>Nietzsche en Kant lezen de krant - denkers van vroeger over dilemma's van nu</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Wijnberg, Rob; Jensen, Stine</td><td>Dus ik ben - een zoektocht naar identiteit</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Wildenburg, B.; Kofod, M.</td><td>Wat en Hoe taalgids Grieks</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Williams, John</td><td>Augustus</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Williams, John</td><td>Stoner</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wilpert, Gero von</td><td>Sachwörterbuch der Literatur</td><td>liter</td><td>&nbsp;</td></tr>
+ <tr><td>Wilson, Peter H.</td><td>Heart of Europe - A History of the Roman Empire</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Winder, Simon</td><td>Danubia - een persoonlijke geschiedenis van het Habsburgse Europa</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Winder, Simon</td><td>Germania - een persoonlijke geschiedenis van het oude en het huidige Duitsland</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Winder, Simon</td><td>Lotharingia - History of Europe's Lost Country</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Winkel, Edwin ten (red.)</td><td>Elseviers Medische Encyclopedie</td><td>medis</td><td>&nbsp;</td></tr>
+ <tr><td>Winks, Robin W.</td><td>Western civilization - a brief history</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Winteroll, Michael</td><td>Die Geschichte Berlins - ein Stadtführer durch die Jahrhunderte</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Witteman, Paul</td><td>Hoor en wederhoor - de klassieke keuze van Paul Witteman</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Witteman, Paul; Pessers, Dorien</td><td>Regels zijn regels - over de daadkracht van Rita Verdonk</td><td>recht</td><td>&nbsp;</td></tr>
+ <tr><td>Witteman, Sylvia</td><td>Huisvrouwmonologen</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Witteman, Sylvia</td><td>Ik verzin dit niet</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Witteman, Sylvia</td><td>Pekingeend bij nacht</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Witteman, Sylvia</td><td>Staatsieportret van een stofzuiger</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Witteman, Sylvia</td><td>Tot dusver niets aan de hand</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Witteman, Sylvia</td><td>Veel gezelliger dan bij u thuis</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wolfe, Tom</td><td>Vreugdevuur der ijdelheden</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Wolters-Noordhoff Atlasproducties</td><td>De Bosatlas van Nederland</td><td>geogr</td><td>&nbsp;</td></tr>
+ <tr><td>Woodward, E.L.</td><td>Geschiedenis van Engeland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Woud, Auke van der</td><td>De nieuwe mens</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Woud, Auke van der</td><td>Een nieuwe wereld - het ontstaan van het moderne Nederland</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Woud, Auke van der</td><td>Het lege land - ruimtelijke orde van Nederland 1798-1848</td><td>gesch</td><td>&nbsp;</td></tr>
+ <tr><td>Wouters, Paul</td><td>Nederland-België - met die buren heb je geen vrienden meer nodig</td><td>filos</td><td>&nbsp;</td></tr>
+ <tr><td>Yergin, Daniel</td><td>The Quest - Energy, Security and the remaking of the modern world</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Ysebaert, J.</td><td>Griekse grammatica (episch, ionisch en attisch)</td><td>taal_gr</td><td>&nbsp;</td></tr>
+ <tr><td>Ysebaert, J.</td><td>Latijnse grammatica</td><td>taal_la</td><td>&nbsp;</td></tr>
+ <tr><td>Zakaria, Fareed</td><td>The Post-American World</td><td>polit</td><td>ebook</td></tr>
+ <tr><td>Zamoyski, Adam</td><td>Chopin - a new biography</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Zamoyski, Adam</td><td>The Polish way - a thousand-year history of the Poles and their culture</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Zeeman, Michaël</td><td>Aan mijn voorlopig vaderland</td><td>essay</td><td>ebook</td></tr>
+ <tr><td>Zijderveld, Anton C.</td><td>Populisme als politiek drijfzand</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zijl, Annejet van der</td><td>Bernhard</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Zinn, Howard</td><td>A People's History of the United States</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Zinn, Howard</td><td>The Zinn Reader</td><td>gesch</td><td>ebook</td></tr>
+ <tr><td>Zoetmulder, Ingrid</td><td>De rijkdom van ikonen</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Zutphen, J.P.W.M. van</td><td>Engelse spraakkunst voor iedereen</td><td>taal_en</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Alles is gekleurd</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Americana - omzwervingen in de Amerikaanse cultuur</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Collega's van God</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>De schaamte voor links</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>De stilte van het licht - schoonheid en onbehagen in de kunst</td><td>kunst</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Duel</td><td>proza</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Hollands welvaren - Nederland 2004-2008</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Kennis is geluk - nieuwe omzwervingen in de kunst</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Pornotheek Arcadië</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost</td><td>Transito</td><td>proza</td><td>ebook</td></tr>
+ <tr><td>Zwagerman, Joost (red.)</td><td>De Nederlandse en Vlaamse literatuur vanaf 1880 in 200 essays</td><td>essay</td><td>&nbsp;</td></tr>
+ <tr><td>Zwagerman, Joost (red.)</td><td>Groeten van Rottumerplaat - het beslissende album volgens 100 en enige schrijvers</td><td>muziek</td><td>&nbsp;</td></tr>
+ <tr><td>Zweig, Stefan</td><td>De wereld van gisteren</td><td>proza</td><td></td></tr>
+ 
+</tbody></table>
+
+</body>
+</html>
